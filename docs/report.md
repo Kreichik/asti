@@ -1,16 +1,8 @@
 # ASTI First Probationary Period Report
 
-Development of an Intelligent System for a Physical Desktop Assistant with a Mobile Application and External Service Integration
+Editable report: https://github.com/Kreichik/asti/blob/main/output/docx/SE-2413_Kudashov_ProbPeriod1.docx
 
-Author: Yan Kudashov (Кудашов Ян Сергеевич), SE-2413
-
-Supervisor: Сарсенова Жибек Нуржановна
-
-Astana IT University | Software Engineering | 24 October 2026
-
-Repository: https://github.com/Kreichik/asti
-
-Task management: https://asti-diploma.youtrack.cloud/
+PDF: https://github.com/Kreichik/asti/blob/main/output/pdf/SE-2413_Kudashov_ProbPeriod1.pdf
 
 ## 1 Project proposal
 
@@ -24,7 +16,7 @@ The intended users are students, freelancers and office employees who organize t
 
 ### 1.2 Aim and objectives
 
-The aim is to develop a software architecture, backend API, mobile application and web application for an intelligent assistant with external-service integration and support for connected physical devices.
+The aim is to develop software architecture, backend API, mobile application and web application for an intelligent assistant with external-service integration and support for connected physical devices.
 
 The objectives are to analyze related systems and research; define functional and nonfunctional requirements; design the API, data model and component interfaces; implement Android and web applications; develop Calendar and Notion adapters; provide authenticated device connections; integrate a model service for briefings; and evaluate correctness, reliability and usability.
 
@@ -206,11 +198,17 @@ The API provides account access, integration authorization, device association, 
 
 Integration workers import authorized Calendar and Notion data through separate adapters. Domain services maintain reminders, focus sessions and briefings. External-service credentials remain on the server and are not included in client responses.
 
-![System context diagram](diagrams/context.png)
+![Report diagram](diagrams/context.png)
 
-![Use case diagram](diagrams/use-cases.png)
+System context diagram
 
-![Draft component diagram](diagrams/components.png)
+![Report diagram](diagrams/use-cases.png)
+
+Use case diagram
+
+![Report diagram](diagrams/components.png)
+
+Draft component diagram
 
 Diagrams are available as editable SVG files and PNG/PDF exports: https://github.com/Kreichik/asti/tree/main/docs/diagrams
 
@@ -230,7 +228,9 @@ The briefing service selects relevant source records and passes a bounded reques
 
 The Android application and web application provide five main areas: Overview, Integrations, Devices, Focus and Settings. Navigation and data remain consistent across the two clients, while layouts suit the available screen size.
 
-![Android application wireframes](prototype/mobile.png)
+![Report diagram](prototype/mobile.png)
+
+Android application wireframes
 
 ### 8.2 Overview and assistant functions
 
@@ -242,7 +242,9 @@ The overview refreshes when the application becomes active after the configured 
 
 The integration screen lists available services and their connection status. Connecting Google Calendar starts the authorization flow and allows calendar selection. Connecting Notion allows selection of the authorized task source and its property mapping. The user can inspect the last synchronization, retry a failed synchronization or disconnect a service.
 
-![Web application integration workspace](prototype/web.png)
+![Report diagram](prototype/web.png)
+
+Web application integration workspace
 
 ### 8.4 Device connections
 
@@ -323,7 +325,23 @@ The supervisor agreed to the proposed diploma topic.
 
 ### 11.2 Deliverable review
 
-The report has been sent to the supervisor. Feedback on the deliverables is pending.
+The student has demonstrated good progress during the first probationary period. The submitted report is well-structured and covers the literature review, analysis of existing solutions, technology selection, system requirements, architecture, and user interface prototypes.
+
+The proposed technical approach is appropriate and demonstrates a good understanding of software engineering principles and system design.
+
+The following recommendations are provided for further development:
+
+Project Scope: Clearly prioritize the core MVP functionalities to ensure feasibility within the available timeframe.
+
+System Architecture: Further refine the database schema, API specifications, and communication mechanisms between system components.
+
+Practical Implementation: Focus on developing a functional prototype demonstrating the core features and external service integrations.
+
+Project Planning: Establish specific milestones, deadlines, and expected deliverables for the next development stages.
+
+Overall Assessment:
+
+The work completed during the first probationary period is satisfactory and provides a solid foundation for further development. The report is recommended for acceptance, with the expectation that the recommendations will be addressed in the subsequent stages.
 
 ## References
 
@@ -378,5 +396,3 @@ The report has been sent to the supervisor. Feedback on the deliverables is pend
 [25] H. Ishii and B. Ullmer. Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. CHI, 1997. https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/
 
 [26] Z. Pousman and J. Stasko. A taxonomy of ambient information systems: four patterns of design. AVI, 2006, pp. 67-74. https://doi.org/10.1145/1133265.1133277
-
-Technical documentation accessed on 24 October 2026.

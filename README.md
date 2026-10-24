@@ -19,7 +19,7 @@ Students and people working at a desk use several task and calendar services. AS
 
 ## Current stage
 
-**First probationary period, 24 October 2026:** analysis and design. This repository contains the proposal, literature review, comparisons, requirements, diagrams, wireframes and evaluation plan. Supervisor review is pending.
+**First probationary period, 24 October 2026:** analysis and design. This repository contains the proposal, literature review, comparisons, requirements, diagrams, wireframes and evaluation plan. Supervisor feedback is included in section 11 of the report.
 
 The application and live connectors are not implemented yet. Installation and runtime test instructions will accompany the first executable version.
 
@@ -71,4 +71,4 @@ Application directories currently describe component responsibilities. Implement
 
 Work items are tracked in YouTrack. Branches and commits reference the corresponding ASTI task, and the task links back to its deliverable or pull request. Significant changes are reviewed with the supervisor at agreed checkpoints.
 
-The first-submission snapshot is [prob-period-1](https://github.com/Kreichik/asti/tree/prob-period-1). Its report and task evidence are listed in the [submission manifest](docs/submission-version.md). Supervisor feedback is still pending and is stated as such in the report.
+The first-submission snapshot is [prob-period-1](https://github.com/Kreichik/asti/tree/prob-period-1). Its report and task evidence are listed in the [submission manifest](docs/submission-version.md). The supervisor feedback and planned next-stage responses are recorded in [the feedback notes](docs/supervisor-feedback.md).

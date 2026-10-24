@@ -21,3 +21,5 @@ Use the [submission checklist](submission-checklist.md) to distinguish prepared 
 Application wireframes: [Android application](prototype/mobile.png).
 
 Editable report: [Word document](../output/docx/SE-2413_Kudashov_ProbPeriod1.docx).
+
+[Supervisor feedback and response plan](supervisor-feedback.md).
