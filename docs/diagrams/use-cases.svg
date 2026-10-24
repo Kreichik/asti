@@ -10,48 +10,48 @@
 	</clipPath>
 	<g id="group" transform="scale(1,-1) translate(0,-610)" style="clip-path: url(#clip)">
 		<g transform="">
-			<text x="283.96337890625" y="580" style="font-family: Arial-Bold; font-size: 18px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,1160) scale(1,-1)">ASTI use cases</text>
-			<rect x="180" y="45" width="345" height="500" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="289.64453125" y="522" style="font-family: Arial-Bold; font-size: 12px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,1044) scale(1,-1)">ASTI software system</text>
-			<circle cx="65" cy="288" r="13" style="stroke: rgb(9%,14%,21%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
-			<path d="M 65,275 L 65,237 Z" style="stroke: rgb(9%,14%,21%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 35,261 L 95,261 Z" style="stroke: rgb(9%,14%,21%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 65,237 L 40,212 Z" style="stroke: rgb(9%,14%,21%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 65,237 L 90,212 Z" style="stroke: rgb(9%,14%,21%); stroke-linecap: butt; stroke-width: 1;"/>
-			<text x="52.33203125" y="192" style="font-family: Arial; font-size: 12px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,384) scale(1,-1)">User</text>
-			<ellipse cx="352.0" cy="480.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="291.470458984375" y="476" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,952) scale(1,-1)">Connect external service</text>
-			<path d="M 95,261 L 220,480 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="433.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="284.144287109375" y="429" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,858) scale(1,-1)">View session-start overview</text>
-			<path d="M 95,261 L 220,433 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="386.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="308.899658203125" y="382" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,764) scale(1,-1)">Receive reminder</text>
-			<path d="M 95,261 L 220,386 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="339.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="293.2939453125" y="335" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,670) scale(1,-1)">Snooze or acknowledge</text>
-			<path d="M 95,261 L 220,339 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="292.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="307.06005859375" y="288" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,576) scale(1,-1)">Run focus session</text>
-			<path d="M 95,261 L 220,292 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="245.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="303.700439453125" y="241" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,482) scale(1,-1)">Pair / revoke device</text>
-			<path d="M 95,261 L 220,245 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="198.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="304.919677734375" y="194" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,388) scale(1,-1)">Configure assistant</text>
-			<path d="M 95,261 L 220,198 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 0.7;"/>
-			<ellipse cx="352.0" cy="151.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="283.830078125" y="147" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,294) scale(1,-1)">Synchronize source records</text>
-			<ellipse cx="352.0" cy="104.0" rx="132.0" ry="17.0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="284.729736328125" y="100" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,200) scale(1,-1)">Generate grounded briefing</text>
-			<rect x="555" y="130" width="135" height="60" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="579.69775390625" y="168.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,336) scale(1,-1)">Calendar / Notion</text>
-			<text x="583.374267578125" y="152.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,304) scale(1,-1)">Source services</text>
-			<rect x="555" y="53" width="135" height="50" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="586.12158203125" y="78.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,156) scale(1,-1)">Model provider</text>
-			<path d="M 485,151 L 555,160 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1;"/>
-			<path d="M 485,104 L 555,78 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1;"/>
-			<text x="199.91137695312497" y="20" style="font-family: Arial; font-size: 9px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,40) scale(1,-1)">Viewing an overview includes generating a grounded briefing or its fallback.</text>
+			<text x="292.4931640625" y="580" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1160) scale(1,-1)">ASTI use cases</text>
+			<rect x="180" y="45" width="345" height="500" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="295.673828125" y="522" style="font-family: TimesNewRoman-Bold; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1044) scale(1,-1)">ASTI software system</text>
+			<circle cx="65" cy="288" r="13" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+			<path d="M 65,275 L 65,237 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 35,261 L 95,261 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 65,237 L 40,212 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 65,237 L 90,212 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="53.6708984375" y="192" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,384) scale(1,-1)">User</text>
+			<ellipse cx="352.0" cy="480.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="297.636474609375" y="476" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,952) scale(1,-1)">Connect external service</text>
+			<path d="M 95,261 L 220,480 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="433.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="289.681884765625" y="429" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,858) scale(1,-1)">View session-start overview</text>
+			<path d="M 95,261 L 220,433 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="386.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="313.062255859375" y="382" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,764) scale(1,-1)">Receive reminder</text>
+			<path d="M 95,261 L 220,386 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="339.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="299.462646484375" y="335" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,670) scale(1,-1)">Snooze or acknowledge</text>
+			<path d="M 95,261 L 220,339 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="292.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="312.278076171875" y="288" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,576) scale(1,-1)">Run focus session</text>
+			<path d="M 95,261 L 220,292 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="245.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="308.171875" y="241" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">Pair / revoke device</text>
+			<path d="M 95,261 L 220,245 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="198.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="309.6865234375" y="194" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Configure assistant</text>
+			<path d="M 95,261 L 220,198 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<ellipse cx="352.0" cy="151.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="291.218017578125" y="147" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,294) scale(1,-1)">Synchronize source records</text>
+			<ellipse cx="352.0" cy="104.0" rx="132.0" ry="17.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="291.220703125" y="100" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">Generate grounded briefing</text>
+			<rect x="555" y="130" width="135" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="583.09228515625" y="168.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,336) scale(1,-1)">Calendar / Notion</text>
+			<text x="588.138427734375" y="152.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,304) scale(1,-1)">Source services</text>
+			<rect x="555" y="53" width="135" height="50" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="588.133056640625" y="78.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Model provider</text>
+			<path d="M 485,151 L 555,160 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 485,104 L 555,78 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="211.42065429687497" y="20" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">Viewing an overview includes generating a grounded briefing or its fallback.</text>
 		</g>
 	</g>
 </svg>

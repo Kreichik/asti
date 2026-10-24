@@ -1,6 +1,6 @@
 # Documentation tools
 
-The scripts build PDFs, not the ASTI application. The current build uses Python, packages from requirements.txt and Arial fonts installed on Windows. Run from the repository root:
+The scripts build PDFs, not the ASTI application. The current build uses Python, packages from requirements.txt and Times New Roman fonts installed on Windows. Run from the repository root:
 
 ```powershell
 python -m pip install -r tools/requirements.txt

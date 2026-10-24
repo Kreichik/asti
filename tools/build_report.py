@@ -15,13 +15,13 @@ import pypdfium2 as pdfium
 
 ROOT=Path(__file__).resolve().parents[1]
 FONT=Path('C:/Windows/Fonts')
-pdfmetrics.registerFont(TTFont('Arial',str(FONT/'arial.ttf')))
-pdfmetrics.registerFont(TTFont('Arial-Bold',str(FONT/'arialbd.ttf')))
-pdfmetrics.registerFontFamily('Arial',normal='Arial',bold='Arial-Bold',italic='Arial',boldItalic='Arial-Bold')
-INK=colors.HexColor('#182536'); LINE=colors.HexColor('#8795a6'); PALE=colors.HexColor('#eef3f7')
+pdfmetrics.registerFont(TTFont('TimesNewRoman',str(FONT/'times.ttf')))
+pdfmetrics.registerFont(TTFont('TimesNewRoman-Bold',str(FONT/'timesbd.ttf')))
+pdfmetrics.registerFontFamily('TimesNewRoman',normal='TimesNewRoman',bold='TimesNewRoman-Bold',italic='TimesNewRoman',boldItalic='TimesNewRoman-Bold')
+INK=colors.black; LINE=colors.black; PALE=colors.white
 
 def text(d,x,y,s,size=12,anchor='middle',bold=False):
-    d.add(String(x,y,s,fontName='Arial-Bold' if bold else 'Arial',fontSize=size,fillColor=INK,textAnchor=anchor))
+    d.add(String(x,y,s,fontName='TimesNewRoman-Bold' if bold else 'TimesNewRoman',fontSize=size,fillColor=INK,textAnchor=anchor))
 
 def box(d,x,y,w,h,lines,fill=PALE):
     d.add(Rect(x,y,w,h,rx=5,fillColor=fill,strokeColor=LINE,strokeWidth=1))
@@ -119,21 +119,21 @@ def diagrams():
     export(d,ROOT/'docs/prototype/flows')
 
 styles={
-    'Body':ParagraphStyle('Body',fontName='Arial',fontSize=10.2,leading=15,spaceAfter=8,textColor=colors.black),
-    'H1':ParagraphStyle('H1',fontName='Arial-Bold',fontSize=19,leading=24,spaceAfter=16,keepWithNext=True),
-    'H2':ParagraphStyle('H2',fontName='Arial-Bold',fontSize=12.2,leading=17,spaceBefore=12,spaceAfter=7,keepWithNext=False),
-    'Cell':ParagraphStyle('Cell',fontName='Arial',fontSize=8.4,leading=11.7,spaceAfter=0),
-    'HeadCell':ParagraphStyle('HeadCell',fontName='Arial-Bold',fontSize=8.5,leading=11.7,textColor=colors.white),
-    'Caption':ParagraphStyle('Caption',fontName='Arial',fontSize=9,leading=12,spaceAfter=12,textColor=colors.HexColor('#465568')),
-    'Cover':ParagraphStyle('Cover',fontName='Arial-Bold',fontSize=28,leading=34,spaceAfter=20),
-    'Subtitle':ParagraphStyle('Subtitle',fontName='Arial',fontSize=15,leading=22,spaceAfter=23),
+    'Body':ParagraphStyle('Body',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=10,textColor=colors.black,splitLongWords=True),
+    'H1':ParagraphStyle('H1',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceBefore=14,spaceAfter=14,keepWithNext=True,textColor=colors.black),
+    'H2':ParagraphStyle('H2',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceBefore=12,spaceAfter=8,keepWithNext=True,textColor=colors.black),
+    'Cell':ParagraphStyle('Cell',fontName='TimesNewRoman',fontSize=14,leading=17,spaceAfter=0,textColor=colors.black,splitLongWords=True),
+    'HeadCell':ParagraphStyle('HeadCell',fontName='TimesNewRoman-Bold',fontSize=14,leading=17,textColor=colors.black,splitLongWords=True),
+    'Caption':ParagraphStyle('Caption',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=12,textColor=colors.black),
+    'Cover':ParagraphStyle('Cover',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceAfter=20,textColor=colors.black),
+    'Subtitle':ParagraphStyle('Subtitle',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=23,textColor=colors.black),
 }
 
 def rich(s):
     s=html.escape(s)
     s=re.sub(r'\*\*(.+?)\*\*',r'<b>\1</b>',s)
     s=re.sub(r'`([^`]+)`',r'\1',s)
-    s=re.sub(r'(https?://[^\s]+)',lambda m:'<link href="'+m[0].rstrip('.,')+'" color="#25496b">'+m[0].rstrip('.,')+'</link>'+m[0][len(m[0].rstrip('.,')):],s)
+    s=re.sub(r'(https?://[^\s]+)',lambda m:'<link href="'+m[0].rstrip('.,')+'" color="#0000FF">'+m[0].rstrip('.,')+'</link>'+m[0][len(m[0].rstrip('.,')):],s)
     return s
 
 class ReportDoc(BaseDocTemplate):
@@ -141,8 +141,7 @@ class ReportDoc(BaseDocTemplate):
         super().__init__(str(path),pagesize=A4,leftMargin=54,rightMargin=54,topMargin=55,bottomMargin=49,title='ASTI First Probationary Period Report',author='Yan Kudashov')
         self.addPageTemplates(PageTemplate('normal',[Frame(self.leftMargin,self.bottomMargin,self.width,self.height,id='body')],onPage=self.page_frame))
     def page_frame(self,c,doc):
-        c.saveState();c.setFont('Arial',8);c.setFillColor(colors.HexColor('#5d6977'))
-        if doc.page>1:c.drawString(54,A4[1]-30,'ASTI | First probationary period')
+        c.saveState();c.setFont('TimesNewRoman',14);c.setFillColor(colors.black)
         c.drawRightString(A4[0]-54,27,str(doc.page));c.restoreState()
     def afterFlowable(self,f):
         if isinstance(f,Paragraph) and f.style.name=='H1':
@@ -160,7 +159,7 @@ def build_report():
         Spacer(1,18),Paragraph(rich('Repository: https://github.com/Kreichik/asti'),styles['Body']),
         Paragraph(rich('YouTrack: https://asti-diploma.youtrack.cloud/agiles/204-1/current'),styles['Body']),PageBreak(),
         Paragraph('Contents',styles['H2'])]
-    toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC',fontName='Arial',fontSize=10.5,leading=20,leftIndent=0,firstLineIndent=0,rightIndent=25)]
+    toc=TableOfContents();toc.levelStyles=[ParagraphStyle('TOC',fontName='TimesNewRoman',fontSize=14,leading=23,leftIndent=0,firstLineIndent=0,rightIndent=25)]
     story+=[toc,PageBreak()]
     lines=(ROOT/'docs/report.md').read_text(encoding='utf-8').splitlines()
     i=next(i for i,s in enumerate(lines) if s.startswith('## 1 '))
@@ -189,7 +188,7 @@ def build_report():
             if n==3 and rows[0][0]=='Alternative':widths=[100,200,187]
             data=[[Paragraph(rich(c),styles['HeadCell'] if r==0 else styles['Cell']) for c in row] for r,row in enumerate(rows)]
             t=Table(data,colWidths=widths,repeatRows=1,hAlign='LEFT')
-            t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#243b53')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,colors.HexColor('#f3f6f9')]),('GRID',(0,0),(-1,-1),.45,colors.HexColor('#d9d9d9')),('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
+            t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),colors.white),('GRID',(0,0),(-1,-1),.5,colors.black),('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
             story.extend([t,Spacer(1,12)]);continue
         para=[line];i+=1
         while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','|','![')):
@@ -200,7 +199,7 @@ def build_report():
 
 if __name__=='__main__':
     diagrams();out=build_report()
-    qa=ROOT/'tmp/pdfs/report';qa.mkdir(parents=True,exist_ok=True)
+    qa=ROOT/'tmp/pdfs/report-formatted';qa.mkdir(parents=True,exist_ok=True)
     pdf=pdfium.PdfDocument(str(out))
     for i in range(len(pdf)):
         pdf[i].render(scale=1.3).to_pil().save(qa/f'page-{i+1}.png')

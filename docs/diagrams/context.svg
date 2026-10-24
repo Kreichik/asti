@@ -10,36 +10,36 @@
 	</clipPath>
 	<g id="group" transform="scale(1,-1) translate(0,-420)" style="clip-path: url(#clip)">
 		<g transform="">
-			<text x="261.47216796875" y="391" style="font-family: Arial-Bold; font-size: 18px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,782) scale(1,-1)">ASTI system context</text>
-			<rect x="20" y="165" width="145" height="90" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="80.8876953125" y="218.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,436) scale(1,-1)">User</text>
-			<text x="38.38623046875" y="202.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,404) scale(1,-1)">Android / web / device</text>
-			<rect x="265" y="145" width="190" height="130" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="306.5146484375" y="226.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,452) scale(1,-1)">ASTI software system</text>
-			<text x="300.394287109375" y="210.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,420) scale(1,-1)">Overview and reminders</text>
-			<text x="303.745849609375" y="194.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,388) scale(1,-1)">Focus and preferences</text>
-			<rect x="540" y="280" width="140" height="60" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="568.4169921875" y="318.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,636) scale(1,-1)">Google Calendar</text>
-			<text x="565.97314453125" y="302.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,604) scale(1,-1)">Authorized events</text>
-			<rect x="540" y="170" width="140" height="60" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="594.1015625" y="208.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,416) scale(1,-1)">Notion</text>
-			<text x="564.74853515625" y="192.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,384) scale(1,-1)">Selected task data</text>
-			<rect x="540" y="60" width="140" height="60" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
-			<text x="573.62158203125" y="98.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,196) scale(1,-1)">Model provider</text>
-			<text x="565.970458984375" y="82.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,164) scale(1,-1)">Grounded briefing</text>
-			<path d="M 165,225 L 265,225 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="265 225, 258.6084 227.8543, 258.6084 222.1457" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,58%,65%); fill-rule: evenodd;"/>
-			<text x="200.2431640625" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,482) scale(1,-1)">Actions</text>
-			<path d="M 265,185 L 165,185 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="165 185, 171.3916 182.1457, 171.3916 187.8543" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,58%,65%); fill-rule: evenodd;"/>
-			<text x="172.2236328125" y="157" style="font-family: Arial; font-size: 9px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,314) scale(1,-1)">State and information</text>
-			<path d="M 455,250 L 540,310 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 310, 533.1322 308.6459, 536.4243 303.9822" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,58%,65%); fill-rule: evenodd;"/>
-			<path d="M 455,210 L 540,200 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 200, 533.9857 203.5816, 533.3187 197.912" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,58%,65%); fill-rule: evenodd;"/>
-			<path d="M 455,165 L 540,90 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 90, 537.0958 96.36912, 533.3188 92.08856" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,58%,65%); fill-rule: evenodd;"/>
-			<text x="175.7421875" y="20" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,40) scale(1,-1)">External sources remain authoritative; the model does not schedule reminders.</text>
+			<text x="270.50732421875" y="391" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,782) scale(1,-1)">ASTI system context</text>
+			<rect x="20" y="165" width="145" height="90" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="82.114990234375" y="218.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">User</text>
+			<text x="42.09765625" y="202.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,404) scale(1,-1)">Android / web / device</text>
+			<rect x="265" y="145" width="190" height="130" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="310.814208984375" y="226.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,452) scale(1,-1)">ASTI software system</text>
+			<text x="305.631103515625" y="210.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">Overview and reminders</text>
+			<text x="310.82763671875" y="194.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Focus and preferences</text>
+			<rect x="540" y="280" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="572.582275390625" y="318.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,636) scale(1,-1)">Google Calendar</text>
+			<text x="569.832275390625" y="302.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,604) scale(1,-1)">Authorized events</text>
+			<rect x="540" y="170" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="594.721923828125" y="208.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,416) scale(1,-1)">Notion</text>
+			<text x="570.600341796875" y="192.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,384) scale(1,-1)">Selected task data</text>
+			<rect x="540" y="60" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="575.633056640625" y="98.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">Model provider</text>
+			<text x="569.219970703125" y="82.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,164) scale(1,-1)">Grounded briefing</text>
+			<path d="M 165,225 L 265,225 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="265 225, 258.6084 227.8543, 258.6084 222.1457" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="201.001220703125" y="241" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">Actions</text>
+			<path d="M 265,185 L 165,185 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="165 185, 171.3916 182.1457, 171.3916 187.8543" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="176.009521484375" y="157" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,314) scale(1,-1)">State and information</text>
+			<path d="M 455,250 L 540,310 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="540 310, 533.1322 308.6459, 536.4243 303.9822" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 455,210 L 540,200 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="540 200, 533.9857 203.5816, 533.3187 197.912" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 455,165 L 540,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="540 90, 537.0958 96.36912, 533.3188 92.08856" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="193.3837890625" y="20" style="font-family: TimesNewRoman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">External sources remain authoritative; the model does not schedule reminders.</text>
 		</g>
 	</g>
 </svg>
