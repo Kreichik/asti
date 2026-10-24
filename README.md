@@ -1,8 +1,8 @@
 # ASTI
 
-Software for a physical desktop assistant: a backend, an Android companion, a device communication protocol and external-service integrations. Overview, reminders and focus sessions are the first assistant functions; a web interface provides another way to use the same system.
+A software platform for a physical desktop assistant, with a backend API, Android application, web application and external-service integrations.
 
-ASTI is my bachelor diploma project in Software Engineering at Astana IT University. The work focuses on the software architecture that makes the desktop device usable: onboarding, device ownership, display state, rotary actions, reconnection, mobile configuration and external integrations.
+ASTI is my bachelor diploma project in Software Engineering at Astana IT University. The work covers application architecture, account management, integration adapters, shared assistant state and a connection API for compatible devices. Hardware and device firmware are outside the development scope.
 
 ## Main features
 
@@ -11,27 +11,27 @@ ASTI is my bachelor diploma project in Software Engineering at Astana IT Univers
 - Shared focus and break timer.
 - Google Calendar and a selected Notion task database as the first data sources.
 
-The physical client uses a round display and a rotary ring with click. Android and web have their own overview and controls, plus account, integration and device settings. Character animation and sound are optional. Voice input, camera features and additional connectors are outside the first implementation.
+Android and web provide an overview, reminders, focus controls, an integration catalogue, device connections and account settings. Physical devices are external clients that communicate through the documented interface.
 
 ## Why this project
 
-A small physical assistant needs more than a display: its software must connect it to an account, expose useful information, process controls and recover reliably when connectivity changes. Students and people working at a desk often keep commitments in several tools. ASTI explores whether a short overview and well-timed reminders make those commitments easier to follow without repeatedly checking each source. Discussions with two students and one office employee informed the source selection; the proposed flows still need user evaluation.
+Students and people working at a desk use several task and calendar services. ASTI provides applications for managing these integrations and assistant functions, and an API through which compatible devices can access the same state. Discussions with two students and one office employee informed the initial source selection.
 
 ## Current stage
 
 **First probationary period, 24 October 2026:** analysis and design. This repository contains the proposal, literature review, comparisons, requirements, diagrams, wireframes and evaluation plan. Supervisor review is pending.
 
-The application and live connectors are not implemented yet. Earlier display and Wi-Fi experiments are separate from this repository. Installation and runtime test instructions will accompany the first executable version.
+The application and live connectors are not implemented yet. Installation and runtime test instructions will accompany the first executable version.
 
 ## Documents
 
 | Material | Link |
 | --- | --- |
-| Consolidated report | [Submission PDF](output/pdf/SE-2413_Kudashov_ProbPeriod1.pdf) · [Editable text](docs/report.md) |
+| Consolidated report | [PDF](output/pdf/SE-2413_Kudashov_ProbPeriod1.pdf) · [Editable Word report](output/docx/SE-2413_Kudashov_ProbPeriod1.docx) |
 | Requirements | [Requirements and acceptance criteria](docs/requirements.md) |
 | Architecture | [Diagram sources and exports](docs/diagrams/) |
-| Interaction design | [Core flows](docs/prototype/flows.png) · [Device onboarding](docs/prototype/setup.png) |
-| Interviews | [Notes and follow-up questions](docs/interviews.md) |
+| Interaction design | [Android screens](docs/prototype/mobile.png) · [Web workspace](docs/prototype/web.png) |
+| Interviews | [Interview notes](docs/interviews.md) |
 | Planning | [YouTrack board](https://asti-diploma.youtrack.cloud/agiles/204-1/current) · [Work items](docs/tasks.md) · [Development plan](docs/roadmap.md) |
 | Task evidence | [Screenshots PDF](output/pdf/ASTI_YouTrack_Evidence.pdf) |
 | Submission | [First-submission checklist](docs/submission-checklist.md) |
@@ -40,7 +40,7 @@ The related-system comparison covers Home Assistant/Assist, OpenVoiceOS and Stac
 
 ## Technical direction
 
-Initial choices: **Python with FastAPI**, **PostgreSQL**, and **Flutter for Android and web**. Secure WebSocket is the preferred device channel, subject to real-hardware validation. HTTPS polling and MQTT are alternatives in the [technology comparison](docs/report.md#5-technology-comparison).
+Initial choices: **Python with FastAPI**, **PostgreSQL**, and **Flutter for Android and web**. Secure WebSocket is the preferred device channel, for compatible external clients. HTTPS polling and MQTT are alternatives in the [technology comparison](docs/report.md#5-technology-comparison).
 
 A replaceable model adapter will generate short briefings from selected source records. Event times and reminder scheduling remain deterministic. If generation fails, the user sees the same records as an ordered list.
 
@@ -49,7 +49,7 @@ A replaceable model adapter will generate short briefings from selected source r
 ```text
 apps/           Android and web client scope
 backend/        API, integration and scheduling scope
-device/         Device protocol and client software scope
+device/         External device connection API scope
 docs/           Report, requirements, diagrams and planning
 config/         Configuration conventions
 tests/          Verification scope and acceptance coverage

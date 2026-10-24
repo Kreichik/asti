@@ -10,8 +10,8 @@ Checked against the university requirements and form on 24 October 2026. The for
 | 3-5 systems and 6-10 criteria | Prepared for review | Three physical-assistant software analogues and eight criteria; documentation-based, with unverified features stated explicitly |
 | Three technology decisions with 2-3 alternatives | Prepared for review | Backend, storage and transport |
 | Requirements, priorities, acceptance criteria | Prepared for review | requirements.md and section 6 |
-| Three required diagrams with editable sources | Prepared for review | Mermaid/PlantUML and SVG sources; PNG/PDF exports |
-| Prototype materials | Prepared for review | Three initial interaction wireframes |
+| Three required diagrams with editable sources | Prepared for review | Editable SVG sources; PNG/PDF exports |
+| Prototype materials | Prepared for review | Android application screens and web integration workspace |
 | Verification/evaluation plan | Prepared for review | Section 9 and tests/README.md |
 | Responsibilities, milestones, risks, dependencies | Prepared for review | YouTrack, roadmap.md and section 10 |
 | Supervisor comments and resulting revisions | Pending | Topic acceptance is recorded; deliverable feedback has not arrived |

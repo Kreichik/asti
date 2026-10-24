@@ -12,7 +12,7 @@ All tasks belong to Yan Kudashov. Dates after the first submission are provision
 | [ASTI-6](https://asti-diploma.youtrack.cloud/issue/ASTI-6) | Calendar/Notion connector feasibility | 31 Oct 2026 | API access |
 | [ASTI-7](https://asti-diploma.youtrack.cloud/issue/ASTI-7) | Overview, reminders and shared focus state | 7 Nov 2026 | ASTI-6 |
 | [ASTI-8](https://asti-diploma.youtrack.cloud/issue/ASTI-8) | Flutter Android and web interfaces | 14 Nov 2026 | ASTI-7 contracts |
-| [ASTI-9](https://asti-diploma.youtrack.cloud/issue/ASTI-9) | Physical client protocol and real hardware checks | 21 Nov 2026 | ASTI-7, hardware transport check |
+| [ASTI-9](https://asti-diploma.youtrack.cloud/issue/ASTI-9) | External device API and connection checks | 21 Nov 2026 | ASTI-7, API contracts |
 | [ASTI-10](https://asti-diploma.youtrack.cloud/issue/ASTI-10) | Grounded briefings and fallback | 21 Nov 2026 | ASTI-6, ASTI-7 |
 | [ASTI-11](https://asti-diploma.youtrack.cloud/issue/ASTI-11) | Reliability and user-flow evaluation | 28 Nov 2026 | Working core, ASTI-6 through ASTI-10 |
 

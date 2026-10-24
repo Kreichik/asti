@@ -1,14 +1,10 @@
-# Exploratory interview evidence
+# Exploratory interviews
 
-I discussed existing organization tools with two students and one office employee in person. These notes summarize the service use I recorded from those discussions. They do not include dated transcripts or verbatim quotations.
+I discussed work and study organization with two students and one office employee in person.
 
-| Group | Reported tools and use | Attribution limit |
-| --- | --- | --- |
-| Two students | Notion, Google Calendar and Notion Calendar for organization; Microsoft Teams occasionally for academic calls or events | The supplied summary does not identify which student uses each tool or distinguish their answers |
-| One office employee | Trello for work task tracking and Microsoft Teams for calls | No detailed workflow, task counts or frequency measurements supplied |
+| Participants | Reported service use |
+| --- | --- |
+| Two students | Notion, Google Calendar and Notion Calendar for organization; Microsoft Teams for occasional academic events and calls |
+| One office employee | Trello for work task tracking and Microsoft Teams for calls |
 
-These discussions support including task and calendar tools in the design exploration. They do not demonstrate that participants miss deadlines, prefer a physical assistant, experience excessive notifications or would adopt ASTI. Fragmentation, session-start briefings and focus support remain design hypotheses.
-
-Follow-up questions should ask participants to describe a recent workday, show how they find upcoming commitments, explain actual difficulties if any, and comment on a concrete briefing/reminder/focus flow. Record dates, anonymized participant IDs, consent for use of notes and accurately attributed findings. Do not reconstruct quotations or assign group-level answers to individual participants.
-
-For the physical-assistant hypothesis, use the actual proposed device flow: ask when a desk display is visible/useful, which information can be glanced at, whether rotary controls are understandable, and when the user would prefer the phone or web interface. Evaluate the Android pairing/configuration flow separately from everyday device interaction. These are questions for a future interview, not findings from the three existing conversations.
+The student responses are recorded together because the available notes do not distinguish the two participants. These discussions informed the selection of Calendar and Notion and the use of separate adapters for later integrations.

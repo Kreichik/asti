@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="650" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 650" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="650"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-650)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="456.6455078125" y="620" style="font-family: TimesNewRoman-Bold; font-size: 20px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1240) scale(1,-1)">ASTI web application</text>
+			<rect x="15" y="45" width="1070" height="530" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 15,520 L 1085,520 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 205,45 L 205,520 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="43.98974609375" y="545" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">ASTI</text>
+			<text x="931.6728515625" y="545" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1090) scale(1,-1)">Account / settings</text>
+			<text x="82.39990234375" y="475" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,950) scale(1,-1)">Overview</text>
+			<text x="73.44482421875" y="426" style="font-family: TimesNewRoman-Bold; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,852) scale(1,-1)">Integrations</text>
+			<text x="87.455078125" y="377" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,754) scale(1,-1)">Devices</text>
+			<text x="79.67236328125" y="328" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,656) scale(1,-1)">Reminders</text>
+			<text x="93.27587890625" y="279" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,558) scale(1,-1)">Focus</text>
+			<text x="87.44140625" y="230" style="font-family: TimesNewRoman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,460) scale(1,-1)">Settings</text>
+			<text x="250" y="480" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,960) scale(1,-1)">Integrations</text>
+			<text x="250" y="450" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,900) scale(1,-1)">Connect services and manage the data available to your assistant</text>
+			<rect x="235" y="295" width="360" height="120" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="377.582275390625" y="371.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,742) scale(1,-1)">Google Calendar</text>
+			<text x="391.47998046875" y="355.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,710) scale(1,-1)">Connected</text>
+			<text x="320.772216796875" y="339.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,678) scale(1,-1)">Select calendars / synchronize / disconnect</text>
+			<rect x="625" y="295" width="420" height="120" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="819.721923828125" y="371.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,742) scale(1,-1)">Notion</text>
+			<text x="803.082275390625" y="355.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,710) scale(1,-1)">Not connected</text>
+			<text x="736.34375" y="339.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,678) scale(1,-1)">Connect and select an authorized task source</text>
+			<rect x="235" y="80" width="810" height="180" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="260" y="232" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,464) scale(1,-1)">Connection settings</text>
+			<text x="260" y="199" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,398) scale(1,-1)">Selected source: authorized calendar or task database</text>
+			<text x="260" y="169" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">Synchronization: last result and timestamp</text>
+			<text x="260" y="139" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,278) scale(1,-1)">Data mapping: title / due date / status</text>
+			<text x="260" y="109" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,218) scale(1,-1)">Actions: save settings / synchronize now / revoke access</text>
+			<text x="377.546875" y="20" style="font-family: TimesNewRoman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">The web client uses the same account, integrations and API as Android.</text>
+		</g>
+	</g>
+</svg>
