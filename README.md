@@ -27,7 +27,7 @@ The application and live connectors are not implemented yet. Earlier display and
 
 | Material | Link |
 | --- | --- |
-| Consolidated report | [Review PDF](output/pdf/ASTI_Supervisor_Review.pdf) · [Editable text](docs/report.md) |
+| Consolidated report | [Submission PDF](output/pdf/SE-2413_Kudashov_ProbPeriod1.pdf) · [Editable text](docs/report.md) |
 | Requirements | [Requirements and acceptance criteria](docs/requirements.md) |
 | Architecture | [Diagram sources and exports](docs/diagrams/) |
 | Interaction design | [Overview, reminder and focus wireframes](docs/prototype/flows.png) |
@@ -69,4 +69,4 @@ Application directories currently describe component responsibilities. Implement
 
 Work items are tracked in YouTrack. Branches and commits reference the corresponding ASTI task, and the task links back to its deliverable or pull request. Significant changes are reviewed with the supervisor at agreed checkpoints.
 
-The first submission will be fixed with the tag `prob-period-1` after review and final checks. It has not been tagged yet.
+The first-submission snapshot is [prob-period-1](https://github.com/Kreichik/asti/tree/prob-period-1). Its report and task evidence are listed in the [submission manifest](docs/submission-version.md). Supervisor feedback is still pending and is stated as such in the report.

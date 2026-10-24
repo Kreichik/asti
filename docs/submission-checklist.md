@@ -19,9 +19,9 @@ Checked against the university requirements and form on 24 October 2026. The for
 | Supervisor/committee access to YouTrack | Verified without login | ASTI tasks and board are public read-only; DEMO remains inaccessible |
 | Progressive contribution evidence | Limited | Actual dated commits and task-linked PR; earlier work cannot be inferred from today's history |
 | Individual contribution field | To enter in form | Sole author, deliverables, task IDs and commit/PR links |
-| Final PDF filename | Pending | SE-2413_Kudashov_ProbPeriod1.pdf, below 100 MB |
+| Final PDF filename | Prepared | SE-2413_Kudashov_ProbPeriod1.pdf, below 100 MB |
 | Screenshots PDF | Prepared | One PDF below 10 MB; board, task details and completed task with commit |
-| Submission version | Pending | Fix final files, create prob-period-1 and provide direct tag URL |
+| Submission version | Fixed snapshot | https://github.com/Kreichik/asti/tree/prob-period-1; see submission-version.md |
 | Form | Pending | Upload both PDFs and submit before 18:00 on 24 October 2026 |
 
 The form's prob-period-1 tag applies to this submission. Keep the repository and never move a submitted tag.
