@@ -14,7 +14,7 @@ Checked against the university requirements and form on 24 October 2026. The for
 | Prototype materials | Prepared for review | Android application screens and web integration workspace |
 | Verification/evaluation plan | Prepared for review | Section 9 and tests/README.md |
 | Responsibilities, milestones, risks, dependencies | Prepared for review | YouTrack, roadmap.md and section 10 |
-| Supervisor comments and resulting revisions | Pending | Topic acceptance is recorded; deliverable feedback has not arrived |
+| Supervisor comments and response plan | Recorded | Section 11 contains the feedback; supervisor-feedback.md maps recommendations to next-stage work |
 | Repository access | Verified public | https://github.com/Kreichik/asti |
 | Supervisor/committee access to YouTrack | Verified without login | ASTI tasks and board are public read-only; DEMO remains inaccessible |
 | Progressive contribution evidence | Limited | Actual dated commits and task-linked PR; earlier work cannot be inferred from today's history |
