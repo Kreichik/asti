@@ -2,53 +2,58 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="700" height="530" preserveAspectRatio="xMinYMin meet" viewBox="0 0 700 530" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="600" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
-		<rect x="0" y="0" width="700" height="530"/>
+		<rect x="0" y="0" width="900" height="600"/>
 	</clipPath>
-	<g id="group" transform="scale(1,-1) translate(0,-530)" style="clip-path: url(#clip)">
+	<g id="group" transform="scale(1,-1) translate(0,-600)" style="clip-path: url(#clip)">
 		<g transform="">
-			<text x="213.27294921874997" y="504" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1008) scale(1,-1)">ASTI draft component architecture</text>
-			<rect x="15" y="400" width="190" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="75.627685546875" y="427.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,855) scale(1,-1)">Flutter Android</text>
-			<rect x="255" y="400" width="190" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="324.796142578125" y="427.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,855) scale(1,-1)">Flutter web</text>
-			<rect x="495" y="400" width="190" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="557.770751953125" y="427.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,855) scale(1,-1)">Physical client</text>
-			<rect x="95" y="300" width="260" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="158.10302734375" y="327.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,655) scale(1,-1)">Authenticated application API</text>
-			<rect x="450" y="300" width="220" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="524.72802734375" y="335.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,671) scale(1,-1)">Device gateway</text>
-			<text x="494.469970703125" y="319.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,639) scale(1,-1)">Pairing / protocol / action IDs</text>
-			<path d="M 110,400 L 180,355 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="180 355, 176.167 360.8573, 173.08 356.0553" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 350,400 L 275,355 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="275 355, 281.9493 355.8409, 279.0122 360.736" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 590,400 L 560,355 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="560 355, 565.9204 358.7349, 561.1705 361.9014" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<rect x="175" y="200" width="350" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="246.4560546875" y="227.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,455) scale(1,-1)">Overview / reminder scheduler / focus services</text>
-			<path d="M 225,300 L 270,255 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="270 255, 267.4988 261.5379, 263.4621 257.5012" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 560,300 L 470,255 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="470 255, 476.9933 255.3054, 474.4403 260.4114" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<rect x="15" y="100" width="195" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="59.500732421875" y="135.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,271) scale(1,-1)">Synchronization worker</text>
-			<text x="53.393798828125" y="119.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,239) scale(1,-1)">Calendar / Notion adapters</text>
-			<rect x="255" y="100" width="190" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="307.087646484375" y="127.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,255) scale(1,-1)">Relational database</text>
-			<rect x="490" y="100" width="195" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="552.22265625" y="135.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,271) scale(1,-1)">Briefing service</text>
-			<text x="533.593017578125" y="119.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,239) scale(1,-1)">Model adapter / fallback</text>
-			<path d="M 310,200 L 350,155 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="350 155, 347.887 161.6735, 343.6203 157.8808" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 210,125 L 255,125 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="255 125, 248.6084 127.8543, 248.6084 122.1457" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 525,225 L 585,155 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="585 155, 583.0076 161.7105, 578.6732 157.9953" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<text x="178.94287109375" y="35" style="font-family: TimesNewRoman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,70) scale(1,-1)">Scheduler uses stored dates. Clients receive state revisions and source-linked records.</text>
+			<text x="335.01708984375" y="570" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1140) scale(1,-1)">ASTI component architecture</text>
+			<rect x="25" y="460" width="220" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="74.81689453125" y="490.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,980) scale(1,-1)">Flutter Android application</text>
+			<rect x="295" y="460" width="220" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="353.9853515625" y="490.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,980) scale(1,-1)">Flutter web application</text>
+			<rect x="650" y="460" width="220" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="708.074951171875" y="490.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,980) scale(1,-1)">External physical client</text>
+			<rect x="150" y="345" width="300" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="244.7099609375" y="385.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,771) scale(1,-1)">Backend application API</text>
+			<text x="212.171875" y="369.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,739) scale(1,-1)">Accounts / integrations / device settings</text>
+			<rect x="605" y="345" width="250" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="678.6845703125" y="385.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,771) scale(1,-1)">Device connection API</text>
+			<text x="644.156494140625" y="369.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,739) scale(1,-1)">Authentication / messages / commands</text>
+			<path d="M 135,460 L 250,410 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="250 410, 245.2765 415.1661, 243.0003 409.9309" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 405,460 L 350,410 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="350 410, 356.6494 412.1874, 352.8094 416.4115" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 760,460 L 730,410 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="730 410, 735.736 414.0122, 730.8409 416.9493" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<rect x="200" y="230" width="500" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="413.19189453125" y="270.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,541) scale(1,-1)">Domain services</text>
+			<text x="345.991455078125" y="254.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,509) scale(1,-1)">Overview / reminders / focus / connection state</text>
+			<path d="M 300,345 L 350,295 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="350 295, 347.4988 301.5379, 343.4621 297.5012" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 730,345 L 620,295 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="620 295, 626.9998 295.0464, 624.6376 300.2434" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<rect x="20" y="100" width="255" height="70" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="104.27880859375" y="143.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,286) scale(1,-1)">Integration workers</text>
+			<text x="88.393798828125" y="127.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">Calendar / Notion adapters</text>
+			<rect x="335" y="100" width="230" height="70" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="423.109619140625" y="143.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,286) scale(1,-1)">PostgreSQL</text>
+			<text x="369.973388671875" y="127.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">Accounts / source data / shared state</text>
+			<rect x="625" y="100" width="255" height="70" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="717.22265625" y="143.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,286) scale(1,-1)">Briefing service</text>
+			<text x="698.593017578125" y="127.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">Model adapter / fallback</text>
+			<path d="M 365,230 L 200,170 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="200 170, 206.9823 169.5018, 205.0314 174.8668" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 450,230 L 450,170 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="450 170, 452.8543 176.3916, 447.1457 176.3916" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 580,230 L 745,170 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="745 170, 739.9686 174.8668, 738.0177 169.5018" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 275,135 L 335,135 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="335 135, 328.6084 137.8543, 328.6084 132.1457" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="287.94873046875" y="32" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">External clients use the connection API; firmware is outside the platform.</text>
 		</g>
 	</g>
 </svg>

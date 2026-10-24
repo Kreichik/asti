@@ -2,44 +2,49 @@
 <!DOCTYPE svg
   PUBLIC '-//W3C//DTD SVG 1.0//EN'
   'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="700" height="420" preserveAspectRatio="xMinYMin meet" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title>...</title>
 	<desc>...</desc>
 	<clipPath id="clip">
-		<rect x="0" y="0" width="700" height="420"/>
+		<rect x="0" y="0" width="900" height="500"/>
 	</clipPath>
-	<g id="group" transform="scale(1,-1) translate(0,-420)" style="clip-path: url(#clip)">
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
 		<g transform="">
-			<text x="270.50732421875" y="391" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,782) scale(1,-1)">ASTI system context</text>
-			<rect x="20" y="165" width="145" height="90" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="82.114990234375" y="218.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">User</text>
-			<text x="58.748046875" y="202.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,404) scale(1,-1)">Account owner</text>
-			<rect x="265" y="145" width="190" height="130" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="307.45458984375" y="226.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,452) scale(1,-1)">ASTI assistant software</text>
-			<text x="302.574951171875" y="210.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">Backend / mobile / device</text>
-			<text x="319.373046875" y="194.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Web / integrations</text>
-			<rect x="540" y="280" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="572.582275390625" y="318.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,636) scale(1,-1)">Google Calendar</text>
-			<text x="569.832275390625" y="302.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,604) scale(1,-1)">Authorized events</text>
-			<rect x="540" y="170" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="594.721923828125" y="208.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,416) scale(1,-1)">Notion</text>
-			<text x="570.600341796875" y="192.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,384) scale(1,-1)">Selected task data</text>
-			<rect x="540" y="60" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="575.633056640625" y="98.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">Model provider</text>
-			<text x="569.219970703125" y="82.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,164) scale(1,-1)">Grounded briefing</text>
-			<path d="M 165,225 L 265,225 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="265 225, 258.6084 227.8543, 258.6084 222.1457" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<text x="201.001220703125" y="241" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">Actions</text>
-			<path d="M 265,185 L 165,185 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="165 185, 171.3916 182.1457, 171.3916 187.8543" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<text x="176.009521484375" y="157" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,314) scale(1,-1)">State and information</text>
-			<path d="M 455,250 L 540,310 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 310, 533.1322 308.6459, 536.4243 303.9822" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 455,210 L 540,200 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 200, 533.9857 203.5816, 533.3187 197.912" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<path d="M 455,165 L 540,90 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
-			<polygon points="540 90, 537.0958 96.36912, 533.3188 92.08856" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
-			<text x="193.3837890625" y="20" style="font-family: TimesNewRoman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">External sources remain authoritative; the model does not schedule reminders.</text>
+			<text x="370.50732421875" y="470" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,940) scale(1,-1)">ASTI system context</text>
+			<rect x="20" y="215" width="150" height="70" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="84.614990234375" y="250.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,500) scale(1,-1)">User</text>
+			<rect x="290" y="170" width="260" height="160" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="387.464599609375" y="274.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,548) scale(1,-1)">ASTI platform</text>
+			<text x="390.520751953125" y="258.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,516) scale(1,-1)">Backend API</text>
+			<text x="353.863037109375" y="242.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,484) scale(1,-1)">Android and web applications</text>
+			<text x="357.230712890625" y="226.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,452) scale(1,-1)">Integrations and shared state</text>
+			<rect x="710" y="350" width="170" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="757.582275390625" y="388.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,776) scale(1,-1)">Google Calendar</text>
+			<text x="760.944580078125" y="372.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,744) scale(1,-1)">External events</text>
+			<rect x="710" y="260" width="170" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="779.721923828125" y="298.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,596) scale(1,-1)">Notion</text>
+			<text x="750.406494140625" y="282.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,564) scale(1,-1)">External task source</text>
+			<rect x="710" y="170" width="170" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="760.633056640625" y="200.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,400) scale(1,-1)">Model provider</text>
+			<rect x="710" y="50" width="170" height="70" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="753.6103515625" y="93.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,186) scale(1,-1)">Compatible device</text>
+			<text x="752.54150390625" y="77.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,154) scale(1,-1)">External API client</text>
+			<path d="M 170,265 L 290,265 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="290 265, 283.6084 267.8543, 283.6084 262.1457" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="194.88330078125" y="283" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,566) scale(1,-1)">Application actions</text>
+			<path d="M 290,225 L 170,225 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="170 225, 176.3916 222.1457, 176.3916 227.8543" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="196.00390625" y="205" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,410) scale(1,-1)">Views and settings</text>
+			<path d="M 550,300 L 710,380 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="710 380, 703.0067 379.6946, 705.5597 374.5886" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 550,270 L 710,290 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="710 290, 703.3037 292.0395, 704.0118 286.3749" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 550,230 L 710,200 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="710 200, 704.2439 203.9833, 703.1918 198.3725" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 550,190 L 710,100 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="710 100, 705.8286 105.6213, 703.0299 100.6458" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="596.6357421875" y="122" style="font-family: TimesNewRoman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,244) scale(1,-1)">Authorized messages</text>
+			<text x="308.58984375" y="20" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">The platform boundary excludes device hardware and firmware.</text>
 		</g>
 	</g>
 </svg>

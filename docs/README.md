@@ -11,11 +11,13 @@ The [consolidated report](report.md) follows the eleven university sections. The
 | 5 Technologies | [Alternatives and decisions](report.md#5-technology-comparison) |
 | 6 Requirements | [Acceptance criteria](requirements.md) |
 | 7 Architecture | [Editable sources and exports](diagrams/) |
-| 8 Interaction | [Wireframes](prototype/flows.png) |
+| 8 Interaction | [Wireframes](prototype/mobile.png) |
 | 9 Evaluation | [Plan and baselines](report.md#9-verification-and-evaluation-plan) |
 | 10 Management | [Roadmap](roadmap.md) and [YouTrack](https://asti-diploma.youtrack.cloud/agiles/204-1/current) |
 | 11 Supervision | [Feedback record](report.md#11-supervisor-feedback), pending comments |
 
 Use the [submission checklist](submission-checklist.md) to distinguish prepared materials from outstanding requirements.
 
-Device onboarding wireframes: [Android companion setup](prototype/setup.png).
+Application wireframes: [Android application](prototype/mobile.png).
+
+Editable report: [Word document](../output/docx/SE-2413_Kudashov_ProbPeriod1.docx).
