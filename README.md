@@ -1,8 +1,8 @@
 # ASTI
 
-A desktop assistant that brings upcoming events and task deadlines together, with a focus timer and a small physical display. The same assistant is available through an Android app and a web interface.
+Software for a physical desktop assistant: a backend, an Android companion, a device communication protocol and external-service integrations. Overview, reminders and focus sessions are the first assistant functions; a web interface provides another way to use the same system.
 
-ASTI is my bachelor diploma project in Software Engineering at Astana IT University. The work focuses on service integrations, backend architecture, client synchronization and communication with the desktop device.
+ASTI is my bachelor diploma project in Software Engineering at Astana IT University. The work focuses on the software architecture that makes the desktop device usable: onboarding, device ownership, display state, rotary actions, reconnection, mobile configuration and external integrations.
 
 ## Main features
 
@@ -15,7 +15,7 @@ The physical client uses a round display and a rotary ring with click. Android a
 
 ## Why this project
 
-Students and people working at a desk often keep commitments in several tools. ASTI explores whether a short overview and well-timed reminders make those commitments easier to follow without repeatedly checking each source. Discussions with two students and one office employee informed the source selection; the proposed flows still need user evaluation.
+A small physical assistant needs more than a display: its software must connect it to an account, expose useful information, process controls and recover reliably when connectivity changes. Students and people working at a desk often keep commitments in several tools. ASTI explores whether a short overview and well-timed reminders make those commitments easier to follow without repeatedly checking each source. Discussions with two students and one office employee informed the source selection; the proposed flows still need user evaluation.
 
 ## Current stage
 
@@ -30,11 +30,13 @@ The application and live connectors are not implemented yet. Earlier display and
 | Consolidated report | [Submission PDF](output/pdf/SE-2413_Kudashov_ProbPeriod1.pdf) · [Editable text](docs/report.md) |
 | Requirements | [Requirements and acceptance criteria](docs/requirements.md) |
 | Architecture | [Diagram sources and exports](docs/diagrams/) |
-| Interaction design | [Overview, reminder and focus wireframes](docs/prototype/flows.png) |
+| Interaction design | [Core flows](docs/prototype/flows.png) · [Device onboarding](docs/prototype/setup.png) |
 | Interviews | [Notes and follow-up questions](docs/interviews.md) |
 | Planning | [YouTrack board](https://asti-diploma.youtrack.cloud/agiles/204-1/current) · [Work items](docs/tasks.md) · [Development plan](docs/roadmap.md) |
 | Task evidence | [Screenshots PDF](output/pdf/ASTI_YouTrack_Evidence.pdf) |
 | Submission | [First-submission checklist](docs/submission-checklist.md) |
+
+The related-system comparison covers Home Assistant/Assist, OpenVoiceOS and Stack-chan. Calendar and Notion are data sources rather than the primary system analogues.
 
 ## Technical direction
 

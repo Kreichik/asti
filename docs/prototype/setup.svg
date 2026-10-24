@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="470" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="470"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-470)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="263.659912109375" y="440" style="font-family: TimesNewRoman-Bold; font-size: 19px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,880) scale(1,-1)">ASTI Android companion: device onboarding</text>
+			<rect x="20" y="55" width="270" height="350" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="98.548583984375" y="374" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,748) scale(1,-1)">Device ownership</text>
+			<text x="110.85498046875" y="351" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,702) scale(1,-1)">Android companion</text>
+			<path d="M 40,333 L 270,333 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="315" y="55" width="270" height="350" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="409.171142578125" y="374" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,748) scale(1,-1)">Connectivity</text>
+			<text x="405.85498046875" y="351" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,702) scale(1,-1)">Android companion</text>
+			<path d="M 335,333 L 565,333 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="610" y="55" width="270" height="350" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="690.225830078125" y="374" style="font-family: TimesNewRoman-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,748) scale(1,-1)">External services</text>
+			<text x="700.85498046875" y="351" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,702) scale(1,-1)">Android companion</text>
+			<path d="M 630,333 L 860,333 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="40" y="243" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="121.863037109375" y="283.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,567) scale(1,-1)">Identify device</text>
+			<text x="112.07421875" y="267.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,535) scale(1,-1)">Confirm ownership</text>
+			<rect x="40" y="153" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="125.209228515625" y="193.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,387) scale(1,-1)">Pairing status</text>
+			<text x="114.687255859375" y="177.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,355) scale(1,-1)">Authorize / cancel</text>
+			<text x="89.63916015625" y="100" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">Account-bound device access</text>
+			<rect x="335" y="243" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="406.770751953125" y="283.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,567) scale(1,-1)">Connection method</text>
+			<text x="379.732666015625" y="267.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,535) scale(1,-1)">BLE / Wi-Fi feasibility pending</text>
+			<rect x="335" y="153" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="413.189208984375" y="193.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,387) scale(1,-1)">Connection state</text>
+			<text x="414.564208984375" y="177.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,355) scale(1,-1)">Retry / continue</text>
+			<text x="387.23876953125" y="100" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">Explain failure and recovery</text>
+			<rect x="630" y="243" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="684.21533203125" y="283.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,567) scale(1,-1)">Authorize Google Calendar</text>
+			<text x="688.643798828125" y="267.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,535) scale(1,-1)">Select Notion data source</text>
+			<rect x="630" y="153" width="230" height="65" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="689.712646484375" y="193.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,387) scale(1,-1)">Device: online / last seen</text>
+			<text x="690.781494140625" y="177.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,355) scale(1,-1)">Source freshness / errors</text>
+			<text x="676.274169921875" y="100" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">Open assistant / manage access</text>
+			<text x="254.51416015625" y="22" style="font-family: TimesNewRoman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,44) scale(1,-1)">Conceptual flow. Pairing transport and exact discovery mechanism require real-device validation.</text>
+		</g>
+	</g>
+</svg>

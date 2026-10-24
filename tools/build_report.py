@@ -45,8 +45,8 @@ def export(d,path):
 def diagrams():
     d=Drawing(700,420)
     text(d,350,391,'ASTI system context',18,bold=True)
-    box(d,20,165,145,90,['User','Android / web / device'])
-    box(d,265,145,190,130,['ASTI software system','Overview and reminders','Focus and preferences'])
+    box(d,20,165,145,90,['User','Account owner'])
+    box(d,265,145,190,130,['ASTI assistant software','Backend / mobile / device','Web / integrations'])
     box(d,540,280,140,60,['Google Calendar','Authorized events'])
     box(d,540,170,140,60,['Notion','Selected task data'])
     box(d,540,60,140,60,['Model provider','Grounded briefing'])
@@ -64,7 +64,7 @@ def diagrams():
     box(d,255,400,190,55,['Flutter web'])
     box(d,495,400,190,55,['Physical client'])
     box(d,95,300,260,55,['Authenticated application API'])
-    box(d,450,300,220,55,['Device gateway'])
+    box(d,450,300,220,55,['Device gateway','Pairing / protocol / action IDs'])
     arrow(d,110,400,180,355);arrow(d,350,400,275,355);arrow(d,590,400,560,355)
     box(d,175,200,350,55,['Overview / reminder scheduler / focus services'])
     arrow(d,225,300,270,255);arrow(d,560,300,470,255)
@@ -118,12 +118,33 @@ def diagrams():
     text(d,450,22,'Conceptual wireframes. These are interaction designs, not implementation or test evidence.',10)
     export(d,ROOT/'docs/prototype/flows')
 
+    d=Drawing(900,470)
+    text(d,450,440,'ASTI Android companion: device onboarding',19,bold=True)
+    for i,h in enumerate(['Device ownership','Connectivity','External services']):
+        x=20+i*295
+        d.add(Rect(x,55,270,350,fillColor=colors.white,strokeColor=LINE,strokeWidth=1))
+        text(d,x+135,374,h,15,bold=True)
+        text(d,x+135,351,'Android companion',11)
+        d.add(Line(x+20,333,x+250,333,strokeColor=LINE))
+    box(d,40,243,230,65,['Identify device','Confirm ownership'])
+    box(d,40,153,230,65,['Pairing status','Authorize / cancel'])
+    text(d,155,100,'Account-bound device access',11)
+    box(d,335,243,230,65,['Connection method','BLE / Wi-Fi feasibility pending'])
+    box(d,335,153,230,65,['Connection state','Retry / continue'])
+    text(d,450,100,'Explain failure and recovery',11)
+    box(d,630,243,230,65,['Authorize Google Calendar','Select Notion data source'])
+    box(d,630,153,230,65,['Device: online / last seen','Source freshness / errors'])
+    text(d,745,100,'Open assistant / manage access',11)
+    text(d,450,22,'Conceptual flow. Pairing transport and exact discovery mechanism require real-device validation.',10)
+    export(d,ROOT/'docs/prototype/setup')
+
+
 styles={
-    'Body':ParagraphStyle('Body',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=10,textColor=colors.black,splitLongWords=True),
+    'Body':ParagraphStyle('Body',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=10,textColor=colors.black,splitLongWords=True,allowWidows=0,allowOrphans=0),
     'H1':ParagraphStyle('H1',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceBefore=14,spaceAfter=14,keepWithNext=True,textColor=colors.black),
     'H2':ParagraphStyle('H2',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceBefore=12,spaceAfter=8,keepWithNext=True,textColor=colors.black),
-    'Cell':ParagraphStyle('Cell',fontName='TimesNewRoman',fontSize=14,leading=17,spaceAfter=0,textColor=colors.black,splitLongWords=True),
-    'HeadCell':ParagraphStyle('HeadCell',fontName='TimesNewRoman-Bold',fontSize=14,leading=17,textColor=colors.black,splitLongWords=True),
+    'Cell':ParagraphStyle('Cell',fontName='TimesNewRoman',fontSize=14,leading=17,spaceAfter=0,textColor=colors.black,splitLongWords=True,allowWidows=0,allowOrphans=0),
+    'HeadCell':ParagraphStyle('HeadCell',fontName='TimesNewRoman-Bold',fontSize=14,leading=17,textColor=colors.black,splitLongWords=True,allowWidows=0,allowOrphans=0),
     'Caption':ParagraphStyle('Caption',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=12,textColor=colors.black),
     'Cover':ParagraphStyle('Cover',fontName='TimesNewRoman-Bold',fontSize=14,leading=21,spaceAfter=20,textColor=colors.black),
     'Subtitle':ParagraphStyle('Subtitle',fontName='TimesNewRoman',fontSize=14,leading=21,spaceAfter=23,textColor=colors.black),

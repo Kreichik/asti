@@ -16,15 +16,17 @@ Task management: https://asti-diploma.youtrack.cloud/
 
 ### 1.1 Problem and intended users
 
-ASTI is a software system that combines information from authorized task and calendar services and makes it available through Android, web and a physical desktop client. It addresses a working hypothesis: people who organize their commitments across separate services need to revisit those sources to form a current picture of upcoming work. The project investigates whether a consolidated, source-linked overview and controlled reminders make that process more convenient.
+ASTI is an intelligent software system for a physical desktop assistant. Its central engineering problem is how a small display-and-rotary device can provide dependable assistance while its software services, mobile companion and external integrations remain coordinated. The system must associate a device with its owner, configure it through Android, deliver relevant information, interpret device actions and recover consistent state after connection loss. A web interface provides another usable access channel to the same assistant.
+
+Tasks, events and focus sessions are the initial application domain used to exercise this architecture. Google Calendar and Notion supply authorized data; they are not the system being developed and are not the principal competing assistant platforms. The working user hypothesis is that a physical, glanceable interface with lightweight controls can make selected information convenient to access at a desk. Whether it adds value beyond existing screens requires evaluation.
 
 The intended users are people who study or work at a desk, including students, freelancers and office employees. Initial exploratory discussions cover two students and one office employee. The first implementation concentrates on the overlap between task tracking, scheduled events and focus sessions rather than occupation-specific workflows.
 
 ### 1.2 Aim and objectives
 
-The aim is to design, implement and evaluate an intelligent software system that integrates external task and calendar data, presents timely contextual information, and maintains consistent assistant state across Android, web and a physical desktop client.
+The aim is to design, implement and evaluate an intelligent software system that operates a physical desktop assistant through a secure device protocol, a mobile companion application and external-service adapters, with consistent assistant state and a supporting web interface.
 
-Objectives are to: analyze actual workflows and related research; specify verifiable requirements; define an extensible integration architecture; connect Google Calendar and a selected Notion task data source; implement normalized source records and deterministic reminder scheduling; produce source-grounded briefings with a replaceable language model; implement Android/web interfaces and the physical-client protocol; and evaluate correctness, reliability and usability against explicit baselines.
+Objectives are to: analyze software platforms for physical assistants and relevant interaction research; specify verifiable requirements; define the backend, mobile and device-software boundaries; implement device onboarding, authorization, state delivery and action handling; provide Android configuration and everyday assistant controls with a supporting web client; connect Google Calendar and a selected Notion source through independent adapters; add source-grounded briefings with a replaceable model; and evaluate real-device behavior, recovery, integration correctness and usability.
 
 ### 1.3 Scope and expected outcomes
 
@@ -34,7 +36,7 @@ The physical client is expected to have a small round display and a rotary ring 
 
 ### 1.4 Engineering contribution
 
-The engineering challenge lies in reconciling heterogeneous source schemas and date semantics, maintaining authorization and data provenance, handling disconnected clients, separating reliable scheduling from probabilistic generation, and keeping state consistent across three interaction surfaces. A language-model API is one replaceable dependency. The contribution is the integrated software architecture and its verified behavior, not a claim of a newly trained model or novel hardware.
+The engineering challenge lies in defining a hardware-independent software boundary for the desktop assistant: device identity and ownership, capability-aware presentation, authenticated action handling, reconnect recovery and shared state with the mobile companion. External-source normalization, date semantics and source-grounded generation support that system rather than replacing its device-facing purpose. A language-model API is one replaceable dependency. The contribution is the integrated software architecture and its verified behavior, not a claim of a newly trained model or novel hardware.
 
 ## 2 Evidence of the relevance
 
@@ -59,7 +61,7 @@ The next interview round should ask participants to reconstruct a recent workday
 
 ### 3.1 Selection and analytical approach
 
-This targeted review combines recent research on digital self-control, grounded language generation and gamification with foundational studies on interruptions, notifications and usability. Five of the eight scientific publications below are from 2022-2024. Older sources are retained for their specific foundational role, not as evidence of current product capabilities. Official technical documentation is used separately for integration contracts and technology decisions. The review is a focused design review rather than an exhaustive systematic review.
+This targeted review covers tangible and ambient interaction, notifications, digital self-control, grounded language generation and gamification. Five of the ten scientific publications below are from 2022-2024. Tangible and ambient-interface studies [25,26] are retained as foundational work directly relevant to the physical assistant; they do not establish current product capabilities. Older sources are retained for their specific foundational role, not as evidence of current product capabilities. Official technical documentation is used separately for integration contracts and technology decisions. The review is a focused design review rather than an exhaustive systematic review.
 
 ### 3.2 Structured analysis of scientific publications
 
@@ -73,8 +75,12 @@ This targeted review combines recent research on digital self-control, grounded 
 | [6] Liu et al., 2024 | Controlled long-context retrieval/QA experiments; performance depends on the position of relevant information | Studied models and tasks differ from short personal briefings | Select a bounded relevant record set; do not send an entire account history as context |
 | [7] Li et al., 2024 | Meta-analysis and review of educational gamification; motivational effects are context dependent | Educational interventions do not establish benefit from a desktop character | Keep character support optional; separate usability evaluation from motivational claims |
 | [8] Brooke, 1996 | Introduces a low-cost system-level perceived-usability questionnaire | Subjective usability does not prove reliability or objective productivity | Use a standardized usability measure alongside task completion and operational metrics |
+| [25] Ishii and Ullmer, 1997 | Describes tangible interaction and ambient presentation through physical interfaces | Conceptual and prototype work, not evidence that ASTI improves productivity | Separate device input/output mapping from domain services; evaluate actual rotary interaction |
+| [26] Pousman and Stasko, 2006 | Taxonomy of ambient systems using information capacity, notification level, representational fidelity and aesthetic emphasis | Design taxonomy, not an implementation protocol or efficacy benchmark | Fit overview detail to the small display, control notification salience and keep character styling optional |
 
 ### 3.3 Critical synthesis
+
+Tangible interaction [25] and ambient-system design [26] provide the physical-interface foundation. They motivate explicit software mappings between information, display states and physical actions, with careful control of attention demands. A persistent object or character is not evidence of benefit by itself. The backend should expose assistant state independently of one screen or input mechanism, and evaluation must include the actual device rather than only a phone UI.
 
 The interruption literature [1,2] motivates careful notification control rather than a promise that a persistent display is inherently beneficial. Research on self-control tools [3,4] reinforces the importance of user choice and the distinction between reducing device use and helping users perform intended work. ASTI therefore proposes configurable reminders and a focus mode, with an explicit evaluation of whether users understand the presented obligations.
 
@@ -84,26 +90,32 @@ Gamification research [7] does not establish that a character will improve work 
 
 ## 4 Existing system comparison
 
-### 4.1 Scope and criteria
+### 4.1 Comparable systems and evidence
 
-Four relevant existing systems are compared using eight consistent criteria: primary workflow, dated records, reminder support, cross-source scope, interaction surface, physical-client integration evidence, focus-session support evidence, and API/extension route. This is a documentation-based comparison, not a hands-on benchmark. A capability marked 'not established' was not demonstrated by the cited documentation; this is not a claim that no extension can provide it.
+Three relevant software systems are compared: Home Assistant with Assist [22], OpenVoiceOS [23] and Stack-chan [24]. They represent a device-and-service platform, a modular assistant runtime and an embedded desktop companion respectively. They are architectural and interaction analogues, not three identical products. All address software associated with physical assistant devices; their different scopes make the tradeoffs explicit.
 
-| Criterion | Google Calendar [9] | Notion [10,11] | Notion Calendar [12] | Trello [13,14] |
-| --- | --- | --- | --- | --- |
-| Primary workflow | Scheduled events | Configurable pages and databases | Calendar and dated database planning | Cards and workflow boards |
-| Dated records | Event start/end and recurrence | Database date properties | Calendar events and dated Notion entries | Card start and due dates |
-| Reminder support | Event reminder model | Date-related reminder features require separate configuration review | Reminder behavior requires scenario-specific verification | Due-date reminder selection documented |
-| Cross-source scope | Authorized calendars; task aggregation requires additional design | External platforms can be integrated through API | Calendar accounts and Notion databases can be brought together | External-source coverage depends on integrations/extensions |
-| Interaction surface assessed | Calendar interface and API | Workspace/database interface and API | Calendar interface | Board/card interface |
-| ASTI-style physical client | Not established in assessed docs | Not established in assessed docs | Not established in assessed docs | Not established in assessed docs |
-| Focus-session workflow | Not established in assessed docs | Can be configured with additional work; native flow not established | Not established in assessed docs | Not established in assessed docs |
-| Extension route | Calendar API | Notion API with explicit content access | Supported calendar/workspace connections | Trello integration mechanisms; API contract requires later review |
+The comparison uses eight consistent criteria. It is based on official project documentation inspected on 24 October 2026, not installation tests. A feature not established by these sources is marked as unverified rather than absent. ASTI's proposed properties are design targets, not demonstrated advantages.
 
-### 4.2 Implication for the proposed solution
+| Criterion | Home Assistant / Assist [22] | OpenVoiceOS [23] | Stack-chan [24] |
+| --- | --- | --- | --- |
+| Main software scope | Device/service platform with an assistant | Modular voice-assistant runtime | Firmware and applications for a desktop companion |
+| Physical execution boundary | Server plus dedicated or custom satellites | Linux runtime with a hardware abstraction layer | Embedded M5Stack firmware |
+| Physical interaction | Voice-assistant hardware; other device controls depend on configuration | Voice pipeline; PHAL exposes hardware controls | Screen face and embodied device interaction |
+| Mobile / web companion evidence | Companion app and browser dashboard | GUI service documented; ASTI-like mobile onboarding unverified | Browser setup and preference tools; Android companion unverified |
+| External-service extension | Integration catalogue | Skills and plugins | User applications (MODs); connector behavior application-specific |
+| Hardware abstraction | Integrations and satellite interfaces | PHAL separates hardware-specific functions | Firmware targets and replaceable renderer/driver interfaces |
+| Intelligent behavior boundary | Local voice foundation; optional model integration | Intent/skill pipeline with replaceable speech components | Behavior defined through firmware and MODs; no universal intelligence guarantee |
+| Reuse / adaptation for ASTI | Reuse platform services; custom rotary display and domain flows need validation | Reuse assistant modules; voice-first runtime adds scope without required voice input | Reuse embedded interaction patterns; account/backend companion functions need separate validation |
 
-Notion Calendar is an important counterexample to an overly broad novelty claim: it already combines calendar accounts with dated Notion database items [12]. ASTI cannot justify itself merely by claiming that tasks and events have never been brought together. Its proposed distinction is the coordinated session-start overview, controlled reminders, focus-state synchronization and rotary physical-client interaction, while retaining fully usable Android and web clients. Whether this combination is useful must be evaluated; the comparison does not prove market uniqueness or superiority.
+### 4.2 Implications and limitations
 
-Google Calendar and Notion are selected as first connectors because they match the exploratory student workflows and provide documented interfaces [9-11]. Trello provides a relevant task-management comparison based on the office participant's practice [13,14]. Moodle and meeting/messaging platforms remain outside the initial connector commitment.
+The comparison shows that physical-assistant software, extensibility and hardware abstraction already exist. ASTI cannot claim to invent those ideas. The project proposes a bounded software system for a screen-and-rotary desktop assistant: Android onboarding, device authorization, shared state, reliable device actions and external-service adapters, exercised through overview, reminder and focus scenarios. The contribution must be demonstrated through implementation and measurements, not an unsupported claim that these platforms cannot be extended.
+
+Home Assistant is the main reuse alternative for connecting device interfaces and services. OpenVoiceOS informs separation of assistant services from hardware-specific controls. Stack-chan informs embedded companion presentation and software customization. None was installed for this report; suitability, effort and end-to-end behavior require feasibility checks. Section 5.5 explicitly compares reuse with a standalone backend before implementation commits to one route.
+
+### 4.3 External sources versus system analogues
+
+Google Calendar and Notion remain initial external data sources because they match the exploratory student workflows and have documented access mechanisms [9-11]. Notion Calendar already brings calendar accounts and dated Notion entries together [12], so aggregation alone is not a novelty claim. Trello's dated-card workflow [13,14] is relevant to the office participant and possible later connectors. These services describe input data and existing user practice; they are not the main comparison set for a physical-assistant software system.
 
 ## 5 Technology comparison
 
@@ -141,6 +153,16 @@ Flutter supports Android and web targets [21] and matches the author's experienc
 
 For the model dependency, compare a hosted pretrained-model API, a self-hosted model and a deterministic-only briefing baseline. A hosted provider behind a replaceable adapter is the initial preference. Provider choice remains open until quality, latency, data handling and cost are measured. Available VPS access is not evidence of sufficient resources for local inference. The deterministic overview remains operational if model generation fails.
 
+### 5.5 System foundation: build versus extend
+
+| Alternative | Fit and reuse | Main tradeoff | Provisional decision |
+| --- | --- | --- | --- |
+| Standalone ASTI backend | Explicit device contracts, account ownership and Android/web domain flows | Must implement authorization, scheduling and adapter lifecycle | Initial preference, subject to a bounded feasibility comparison |
+| Extend Home Assistant [22] | Existing device/service platform and companion access | Need to map the rotary display, user/account model and task semantics onto platform conventions | Strong reuse candidate; verify with one real-device state/action path |
+| Extend OpenVoiceOS [23] | Existing assistant modules and hardware abstraction | Voice-oriented services may be unnecessary for a display-and-rotary baseline | Reconsider if voice becomes central; do not add a microphone to justify the platform |
+
+FastAPI is a backend framework choice within the standalone route, not evidence that this route is automatically better than extending an assistant platform. Before full implementation, compare the smallest end-to-end path for device authorization, one displayed record, one rotary action and reconnect. Record required customization and operational dependencies. Stack-chan is an embedded implementation reference, not a drop-in substitute for the whole backend and mobile companion.
+
 ## 6 Requirements specification
 
 ### 6.1 Functional requirements
@@ -163,6 +185,8 @@ Priorities use Must for baseline acceptance and Should for a valuable extension.
 | FR-12 | Should | Provide independently optional sound and character feedback without removing core functions when disabled |
 | FR-13 | Must | Display synchronization freshness and actionable connection errors; stale records are not described as live |
 | FR-14 | Should | Permit manual synchronization without duplicate source items |
+| FR-15 | Must | Negotiate a versioned device contract with display/input capabilities; unsupported protocol versions receive an explicit compatibility error |
+| FR-16 | Must | Validate device actions by owner, action ID and state revision; retries have one accepted effect and reconnect restores current state |
 
 ### 6.2 Nonfunctional requirements
 
@@ -184,7 +208,7 @@ The numeric performance targets are provisional engineering acceptance targets, 
 
 ### 7.1 Architectural organization
 
-The proposed architecture is a modular backend with integration adapters, normalized storage, briefing generation, reminder scheduling, focus state and authenticated client gateways. Periodic workers import remote changes with pagination, retry/backoff and idempotent upserts. Provider credentials stay on the server. Clients receive application records and state, not raw service credentials.
+The software boundary has three first-class parts: the physical-client software and protocol, the Android companion, and the assistant backend. The supporting web client uses the same domain state. The proposed architecture is a modular backend with integration adapters, normalized storage, briefing generation, reminder scheduling, focus state and authenticated client gateways. Periodic workers import remote changes with pagination, retry/backoff and idempotent upserts. Provider credentials stay on the server. Clients receive application records and state, not raw service credentials.
 
 The system context identifies the user, ASTI and the three external dependencies: Google Calendar, Notion and the replaceable model provider. The use-case view covers connection setup, automatic overview, reminders, snooze/acknowledgment, focus sessions, device pairing and settings. The draft component view separates client interfaces, domain services, workers, persistence and adapters.
 
@@ -198,7 +222,7 @@ Editable sources and exports: https://github.com/Kreichik/asti/tree/main/docs/di
 
 ### 7.2 Data and consistency
 
-Core entities are User, ServiceConnection, SourceItem, ReminderOccurrence, Device, FocusSession and Briefing. SourceItem distinguishes task and event records and retains provenance and freshness. ReminderOccurrence has a stable deduplication key, scheduled time, status and acknowledgment/snooze history. FocusSession records state and authoritative server times; clients derive remaining duration rather than each maintaining an unrelated countdown.
+Core entities are User, ServiceConnection, SourceItem, ReminderOccurrence, Device, DeviceSession, DeviceAction, FocusSession and Briefing. Device records ownership, supported protocol version, display/input capabilities and revocation status. DeviceSession records connection freshness and delivered state revision; DeviceAction records the accepted action ID and outcome so retry handling is inspectable. SourceItem distinguishes task and event records and retains provenance and freshness. ReminderOccurrence has a stable deduplication key, scheduled time, status and acknowledgment/snooze history. FocusSession records state and authoritative server times; clients derive remaining duration rather than each maintaining an unrelated countdown.
 
 Client actions include an action ID and expected state revision. The backend validates ownership and applies each accepted action once. Device reconnect uses a snapshot plus later revisions. The display retains an explicit offline indicator when disconnected; it must not imply that locally cached records are newly synchronized.
 
@@ -210,7 +234,7 @@ The briefing service selects relevant normalized records, attaches source IDs an
 
 ### 8.1 Interaction principles
 
-Information is delivered proactively at appropriate moments, with lightweight direct controls. A phone request is not required merely to obtain an answer on the desktop device. Android and web present useful information directly and can also configure shared settings. The physical client's ring is an input method, not the center of the architecture.
+Information is delivered proactively at appropriate moments, with lightweight direct controls. A phone request is not required merely to obtain an answer on the desktop device. Android and web present useful information directly and can also configure shared settings. The physical client is a primary delivery and control surface. Its ring maps to domain actions through the device protocol; Android and web offer equivalent controls appropriate to their interfaces.
 
 Initial flow wireframes: https://github.com/Kreichik/asti/blob/main/docs/prototype/flows.png
 
@@ -232,11 +256,15 @@ The user selects duration and starts a work interval. All connected clients refl
 
 Android onboarding links an account to an identified device, provisions connectivity by a method to be validated, and lets the user authorize source connections. The integration catalogue initially offers Google Calendar and Notion, with connection status, selected data scope, freshness and disconnect controls. Web provides the same assistant overview and settings, with platform-dependent pairing capabilities handled explicitly.
 
+![Android companion device onboarding wireframes](prototype/setup.png)
+
+The onboarding wireframes separate ownership, connectivity and external authorization. Discovery/provisioning transport remains a feasibility decision; a design sketch is not proof that BLE or Wi-Fi pairing has been implemented. Device identity and connectivity are distinct from authorization to Google Calendar or Notion.
+
 ## 9 Verification and evaluation plan
 
 ### 9.1 Baselines and questions
 
-The application baseline is manual checking of the same user's calendar and task source. The briefing baseline is a deterministic ordered list of the same imported records. Evaluation asks whether ASTI correctly imports and presents obligations, reliably schedules reminders and synchronizes client actions, and enables users to identify their next commitments with acceptable effort. It does not assume a long-term productivity or motivation improvement.
+The architecture baseline is a minimal HTTPS snapshot/action implementation compared with the selected live device channel on the same real hardware. Compare recovery correctness, action duplication, state consistency, delivery latency and device/network overhead under declared conditions. The interaction baseline compares the same assistant flows on Android/web and the physical client; this isolates the value and cost of the physical interface from differences in imported data. Manual checking of the same user's calendar and task source is a secondary workflow baseline. The briefing baseline is a deterministic ordered list of the same imported records. Evaluation asks whether ASTI correctly imports and presents obligations, reliably schedules reminders and synchronizes client actions, and enables users to identify their next commitments with acceptable effort. It does not assume a long-term productivity or motivation improvement.
 
 ### 9.2 Verification matrix
 
@@ -244,6 +272,7 @@ The application baseline is manual checking of the same user's calendar and task
 | --- | --- | --- |
 | Connectors | Authorized test-account records compared with source data; create/update/delete and expired-access behavior | Correct identities, date semantics, pagination and no duplicates |
 | Reminder engine | Scheduled time, dispatch time, client receipt and acknowledgment logs | Explicit lead-time behavior, measured dispatch delay, no repeated effects after retry |
+| Device contract | One real device: supported/unsupported protocol versions, capabilities, authorized/revoked sessions, repeated actions and disconnect/reconnect | FR-09, FR-10, FR-15 and FR-16; no cross-owner access or duplicate action effects; current state restored |
 | Timer and clients | One real Android client, browser and physical client with recorded actions/reconnects | Consistent state and remaining-time calculation; revocation and reconnect verified |
 | Model briefings | Saved record sets and outputs from a declared model/version; review of each factual statement | Source coverage, date correctness, unsupported-statement rate, timeout/fallback behavior |
 | Isolation and secrets | Two test accounts, invalid/revoked credentials and log inspection | No cross-user access or leaked integration tokens |
@@ -267,7 +296,7 @@ This is an individual project. Yan Kudashov is responsible for analysis, design,
 
 The ASTI Kanban board is available at https://asti-diploma.youtrack.cloud/agiles/204-1/current. Public read-only access is enabled for ASTI tasks and the board; other projects remain private. The author's account displays Yan (login admin). ASTI-1 records completed repository setup; ASTI-2 and ASTI-3 contain the prepared analysis and design materials under review. ASTI-4 tracks pending supervisor feedback, and ASTI-5 tracks final packaging and submission. ASTI-6 through ASTI-11 cover connector feasibility, shared assistant services, Android/web interfaces, the physical client protocol, grounded briefings and evaluation. The full task catalogue is at https://github.com/Kreichik/asti/blob/main/docs/tasks.md. All eleven tasks have an assignee, priority, native due date, expected outcome and acceptance criteria. Dates beyond the first submission are provisional planning targets. The completed setup links to commit 352c396; prepared report and diagram tasks link to pull request 2. Open review tasks are not approved deliverables.
 
-Meaningful changes are committed progressively at the time of work. Main is the reviewed baseline; subsequent task changes use branches and pull requests. The first repository setup records the initial analysis materials. It is not evidence of development before its actual commit date. The first-submission tag prob-period-1 must be created only after the reviewed submission files are finalized, and must not later be moved.
+Meaningful changes are committed progressively at the time of work. Main is the reviewed baseline; subsequent task changes use branches and pull requests. The first repository setup records the initial analysis materials. It is not evidence of development before its actual commit date. The first-submission tag prob-period-1 identifies the exact packaged files. Author-requested corrections before form submission are recorded in the version manifest; a version already submitted must not be silently replaced.
 
 ### 10.2 Proposed milestones
 
@@ -345,5 +374,15 @@ Feedback on the proposal, requirements, technology decisions and architecture is
 [20] MQTT. Frequently asked questions. https://mqtt.org/faq/
 
 [21] Flutter. Build for and integrate with multiple platforms. https://docs.flutter.dev/platform-integration
+
+[22] Home Assistant. Assist, integrations and companion documentation. https://www.home-assistant.io/voice_control/ ; https://www.home-assistant.io/integrations/ ; https://companion.home-assistant.io/
+
+[23] OpenVoiceOS. Project architecture and hardware integration documentation. https://github.com/OpenVoiceOS/OpenVoiceOS/blob/main/README.md ; https://openvoiceos.github.io/beta-technical-manual/hardware-integrators/
+
+[24] Stack-chan project. Official repository and firmware API. https://github.com/stack-chan/stack-chan ; https://stack-chan.github.io/stack-chan/firmware/docs/api.html
+
+[25] H. Ishii and B. Ullmer. Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms. CHI, 1997. https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/
+
+[26] Z. Pousman and J. Stasko. A taxonomy of ambient information systems: four patterns of design. AVI, 2006, pp. 67-74. https://doi.org/10.1145/1133265.1133277
 
 Technical documentation consulted on 24 October 2026. Product behavior and API contracts must be rechecked during implementation.

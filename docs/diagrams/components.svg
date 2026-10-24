@@ -20,7 +20,8 @@
 			<rect x="95" y="300" width="260" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
 			<text x="158.10302734375" y="327.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,655) scale(1,-1)">Authenticated application API</text>
 			<rect x="450" y="300" width="220" height="55" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="524.72802734375" y="327.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,655) scale(1,-1)">Device gateway</text>
+			<text x="524.72802734375" y="335.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,671) scale(1,-1)">Device gateway</text>
+			<text x="494.469970703125" y="319.5" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,639) scale(1,-1)">Pairing / protocol / action IDs</text>
 			<path d="M 110,400 L 180,355 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>
 			<polygon points="180 355, 176.167 360.8573, 173.08 356.0553" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
 			<path d="M 350,400 L 275,355 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.2;"/>

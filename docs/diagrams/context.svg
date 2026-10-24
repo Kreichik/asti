@@ -13,11 +13,11 @@
 			<text x="270.50732421875" y="391" style="font-family: TimesNewRoman-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,782) scale(1,-1)">ASTI system context</text>
 			<rect x="20" y="165" width="145" height="90" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
 			<text x="82.114990234375" y="218.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">User</text>
-			<text x="42.09765625" y="202.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,404) scale(1,-1)">Android / web / device</text>
+			<text x="58.748046875" y="202.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,404) scale(1,-1)">Account owner</text>
 			<rect x="265" y="145" width="190" height="130" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="310.814208984375" y="226.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,452) scale(1,-1)">ASTI software system</text>
-			<text x="305.631103515625" y="210.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">Overview and reminders</text>
-			<text x="310.82763671875" y="194.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Focus and preferences</text>
+			<text x="307.45458984375" y="226.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,452) scale(1,-1)">ASTI assistant software</text>
+			<text x="302.574951171875" y="210.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">Backend / mobile / device</text>
+			<text x="319.373046875" y="194.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,388) scale(1,-1)">Web / integrations</text>
 			<rect x="540" y="280" width="140" height="60" rx="5" ry="0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
 			<text x="572.582275390625" y="318.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,636) scale(1,-1)">Google Calendar</text>
 			<text x="569.832275390625" y="302.0" style="font-family: TimesNewRoman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,604) scale(1,-1)">Authorized events</text>

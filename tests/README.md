@@ -4,6 +4,7 @@ Automated tests will accompany executable components. This milestone contains ac
 
 | Area | Checks | Requirements |
 | --- | --- | --- |
+| Device contract | Protocol versions, display/input capabilities, repeated action IDs, stale revisions and real-device reconnect | FR-09, FR-10, FR-15, FR-16 |
 | Access | Account isolation, unauthorized actions, revocation | FR-01, FR-09, NFR-01 |
 | Sources | Authorized source records, update/delete, pagination, missing dates, repeated imports | FR-02-FR-04, FR-14, NFR-02-NFR-03 |
 | Overview | Inactivity threshold, one overview per session, empty/stale/error states | FR-05, FR-13 |
