@@ -1,0 +1,6 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+docs/** linguist-documentation=true
+docs/diagrams/*.svg linguist-generated=true
+docs/prototype/*.svg linguist-generated=true

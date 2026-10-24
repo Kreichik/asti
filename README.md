@@ -1,54 +1,72 @@
 # ASTI
 
-ASTI is a bachelor diploma project on an intelligent software system for a physical desktop assistant, with Android and web interfaces and external service integration.
+A desktop assistant that brings upcoming events and task deadlines together, with a focus timer and a small physical display. The same assistant is available through an Android app and a web interface.
 
-## Project purpose
+ASTI is my bachelor diploma project in Software Engineering at Astana IT University. The work focuses on service integrations, backend architecture, client synchronization and communication with the desktop device.
 
-The system is designed to combine tasks and scheduled events from explicitly connected services into a source-linked overview, deliver contextual reminders, and support focus sessions. The initial problem hypothesis is that users who organize work across separate services must repeatedly check those sources to understand their upcoming obligations. Three exploratory discussions establish use of several relevant tools; they do not yet establish demand for ASTI or measurable productivity benefits.
+## Main features
 
-## Author and supervisor
+- Automatic overview when a new work session starts.
+- Contextual reminders with snooze and acknowledgment.
+- Shared focus and break timer.
+- Google Calendar and a selected Notion task database as the first data sources.
 
-- Sole author: Yan Kudashov (Кудашов Ян Сергеевич), SE-2413, [Kreichik](https://github.com/Kreichik).
-- Supervisor: Сарсенова Жибек Нуржановна.
-- Author responsibilities: analysis, literature review, requirements, architecture, backend, Android/web clients, device communication software, integration, testing and documentation.
-- Approved topic: **Development of an Intelligent System for a Physical Desktop Assistant with a Mobile Application and External Service Integration**.
+The physical client uses a round display and a rotary ring with click. Android and web have their own overview and controls, plus account, integration and device settings. Character animation and sound are optional. Voice input, camera features and additional connectors are outside the first implementation.
 
-## Scope
+## Why this project
 
-The planned first implementation connects Google Calendar and a selected Notion task database, normalizes records, produces an automatic session-start overview, schedules contextual reminders and synchronizes a focus timer across authorized clients. The physical client supports a round display and a rotary ring with click. Android, web and the physical device are independent interfaces to the same system; no device simulator is planned.
+Students and people working at a desk often keep commitments in several tools. ASTI explores whether a short overview and well-timed reminders make those commitments easier to follow without repeatedly checking each source. Discussions with two students and one office employee informed the source selection; the proposed flows still need user evaluation.
 
-Hardware engineering, model training, camera input and mandatory voice input are outside the initial scope. Optional character interaction and future connectors require separate prioritization.
+## Current stage
 
-## Status on 24 October 2026
+**First probationary period, 24 October 2026:** analysis and design. This repository contains the proposal, literature review, comparisons, requirements, diagrams, wireframes and evaluation plan. Supervisor review is pending.
 
-Analysis and design are in preparation. The author has reported preliminary hardware/display and Wi-Fi experiments, but their source code has not been imported or verified here. This repository currently documents the planned system, not a production application. There are no measured evaluation results or verified live service integrations yet.
+The application and live connectors are not implemented yet. Earlier display and Wi-Fi experiments are separate from this repository. Installation and runtime test instructions will accompany the first executable version.
 
-## Candidate technologies
+## Documents
 
-Python backend, Flutter Android/web clients, relational storage, authenticated device communication and a replaceable language-model adapter. Specific choices will be supported by the technology comparison rather than treated as implemented facts.
+| Material | Link |
+| --- | --- |
+| Consolidated report | [Review PDF](output/pdf/ASTI_Supervisor_Review.pdf) · [Editable text](docs/report.md) |
+| Requirements | [Requirements and acceptance criteria](docs/requirements.md) |
+| Architecture | [Diagram sources and exports](docs/diagrams/) |
+| Interaction design | [Overview, reminder and focus wireframes](docs/prototype/flows.png) |
+| Interviews | [Notes and follow-up questions](docs/interviews.md) |
+| Planning | [YouTrack board](https://asti-diploma.youtrack.cloud/agiles/204-1/current) · [Work items](docs/tasks.md) · [Development plan](docs/roadmap.md) |
+| Task evidence | [Screenshots PDF](output/pdf/ASTI_YouTrack_Evidence.pdf) |
+| Submission | [First-submission checklist](docs/submission-checklist.md) |
 
-## Materials and task management
+## Technical direction
 
-- [Consolidated report source](docs/report.md)
-- [Report PDF for supervisor review](output/pdf/ASTI_Supervisor_Review.pdf)
-- [YouTrack board and task evidence PDF](output/pdf/ASTI_YouTrack_Evidence.pdf)
-- [Requirements](docs/requirements.md)
-- [Interview evidence](docs/interviews.md)
-- [Editable architecture diagrams](docs/diagrams/)
-- [YouTrack Kanban board](https://asti-diploma.youtrack.cloud/agiles/204-1/current)
-- [Interaction wireframes](docs/prototype/flows.png)
-- [Project decisions and evidence boundaries](PROJECT_CONTEXT.md)
+Initial choices: **Python with FastAPI**, **PostgreSQL**, and **Flutter for Android and web**. Secure WebSocket is the preferred device channel, subject to real-hardware validation. HTTPS polling and MQTT are alternatives in the [technology comparison](docs/report.md#5-technology-comparison).
 
-## Repository organization
+A replaceable model adapter will generate short briefings from selected source records. Event times and reminder scheduling remain deterministic. If generation fails, the user sees the same records as an ordered list.
 
-Documentation and diagrams live under `docs/`; submission PDFs will be under `output/pdf/`. Source code, tests and deployment configuration will be added when implementation begins. Runtime secrets and personal contact information must not be committed.
+## Repository layout
 
-## Setup and verification
+```text
+apps/           Android and web client scope
+backend/        API, integration and scheduling scope
+device/         Device protocol and client software scope
+docs/           Report, requirements, diagrams and planning
+config/         Configuration conventions
+tests/          Verification scope and acceptance coverage
+tools/          Documentation PDF build scripts
+output/pdf/     Current report and task evidence
+```
 
-There is no runnable application in this analysis-stage version. Setup, execution and automated-test instructions will be added with the first executable implementation. The documentation can be reviewed directly in GitHub.
+Application directories currently describe component responsibilities. Implementation code will be added as the work progresses. The PDF tools can be run separately; see [tools](tools/README.md).
 
-## Development workflow
+## Author and supervision
 
-Each meaningful work item is tracked in YouTrack with an assignee, priority, due date, expected outcome and acceptance criteria. Task IDs belong in branch names and commit or pull-request descriptions, with reciprocal links from the issue. Significant changes are developed on branches and submitted through pull requests; supervisor reviews are recorded at agreed checkpoints. Work history is recorded at the actual time it occurs.
+**Author:** Yan Kudashov (Кудашов Ян Сергеевич), SE-2413 — [Kreichik](https://github.com/Kreichik). I am responsible for analysis, architecture, implementation, testing and documentation.
 
-The submission tag `prob-period-1` will identify the finalized first submission. It has not been created while these materials are still being prepared.
+**Supervisor:** Сарсенова Жибек Нуржановна.
+
+**Approved topic:** Development of an Intelligent System for a Physical Desktop Assistant with a Mobile Application and External Service Integration.
+
+## Workflow
+
+Work items are tracked in YouTrack. Branches and commits reference the corresponding ASTI task, and the task links back to its deliverable or pull request. Significant changes are reviewed with the supervisor at agreed checkpoints.
+
+The first submission will be fixed with the tag `prob-period-1` after review and final checks. It has not been tagged yet.
