@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor User
+actor "Google Calendar" as Calendar
+actor Notion
+actor "Model provider" as Model
+rectangle "ASTI software system" {
+  usecase "Connect external service" as Connect
+  usecase "View automatic session overview" as Overview
+  usecase "Receive contextual reminder" as Reminder
+  usecase "Snooze or acknowledge reminder" as Snooze
+  usecase "Run focus session" as Focus
+  usecase "Pair or revoke device" as Pair
+  usecase "Configure assistant" as Settings
+  usecase "Synchronize source records" as Sync
+  usecase "Generate grounded briefing" as Brief
+}
+User --> Connect
+User --> Overview
+User --> Reminder
+User --> Snooze
+User --> Focus
+User --> Pair
+User --> Settings
+Calendar --> Sync
+Notion --> Sync
+Overview ..> Brief : <<include>>
+Model --> Brief
+@enduml
