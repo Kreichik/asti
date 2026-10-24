@@ -6,8 +6,8 @@ Checked against the university requirements and form on 24 October 2026. The for
 | --- | --- | --- |
 | Proposal, aim, objectives, scope | Prepared for review | Report section 1 |
 | Relevance evidence | Partial | Three real discussions; service use recorded, but workflow difficulties and proposed-feature feedback need follow-up |
-| At least 12 used sources, including 8 scientific publications | Prepared for review | 21 references, eight-publication analysis table; five scientific works from 2022-2024 plus foundational sources |
-| 3-5 systems and 6-10 criteria | Prepared for review | Four systems and eight criteria; some capabilities remain unverified |
+| At least 12 used sources, including 8 scientific publications | Prepared for review | 26 references, ten-publication analysis table; five scientific works from 2022-2024 plus foundational sources |
+| 3-5 systems and 6-10 criteria | Prepared for review | Three physical-assistant software analogues and eight criteria; documentation-based, with unverified features stated explicitly |
 | Three technology decisions with 2-3 alternatives | Prepared for review | Backend, storage and transport |
 | Requirements, priorities, acceptance criteria | Prepared for review | requirements.md and section 6 |
 | Three required diagrams with editable sources | Prepared for review | Mermaid/PlantUML and SVG sources; PNG/PDF exports |

@@ -1,6 +1,6 @@
 # Development plan
 
-The first implementation has two sources and three main flows: a session-start overview, contextual reminders and focus sessions. Additional connectors and character features follow after the core works reliably.
+The system is organized around the physical-client protocol, Android companion and backend. First validate the build-versus-extend decision using one real-device state/action path and recovery behavior. The first implementation has two sources and three main flows: a session-start overview, contextual reminders and focus sessions. Additional connectors and character features follow after the core works reliably.
 
 | Stage | Work | Exit condition |
 | --- | --- | --- |

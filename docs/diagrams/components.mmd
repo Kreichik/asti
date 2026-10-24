@@ -1,7 +1,7 @@
 flowchart TB
     A[Flutter Android client] --> API[Authenticated application API]
     W[Flutter web client] --> API
-    D[Physical client display and rotary input] --> DG[Device communication gateway]
+    D[Physical client display and rotary input] --> DG[Device gateway: pairing, protocol, action deduplication]
     DG --> CORE[Overview, reminder scheduler and focus services]
     API --> CORE
     CORE --> DB[(Relational database)]

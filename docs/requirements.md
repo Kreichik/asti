@@ -18,6 +18,8 @@ Status: proposed requirements for supervisor review, 24 October 2026. These crit
 | FR-12 | Should | Show optional character and sound | User can disable character animation and sound independently; disabling them preserves reminders and timer functionality |
 | FR-13 | Must | Report connection freshness and errors | Clients display last successful synchronization and explain disconnected/expired integrations; stale data is not presented as live |
 | FR-14 | Should | Allow manual refresh | Refresh reports success or a recoverable error and does not duplicate existing source items |
+| FR-15 | Must | Negotiate a versioned device contract | Device reports protocol version and display/input capabilities; incompatible versions produce an explicit compatibility error |
+| FR-16 | Must | Validate and deduplicate device actions | Owner and expected revision are checked; resending an action ID has one accepted effect; reconnect restores current state before new actions |
 | NFR-01 | Must | Protect credentials | Client responses and logs contain no service access/refresh tokens; server secrets are excluded from Git and encrypted at rest with the key stored separately |
 | NFR-02 | Must | Make synchronization idempotent | Replaying the same source response creates no duplicate item or duplicate reminder for the same occurrence |
 | NFR-03 | Must | Handle local times explicitly | Acceptance cases cover UTC conversion, all-day dates, events crossing midnight and recurrence exceptions; date-only tasks are not silently treated as precise instants |

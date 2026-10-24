@@ -17,3 +17,5 @@ The [consolidated report](report.md) follows the eleven university sections. The
 | 11 Supervision | [Feedback record](report.md#11-supervisor-feedback), pending comments |
 
 Use the [submission checklist](submission-checklist.md) to distinguish prepared materials from outstanding requirements.
+
+Device onboarding wireframes: [Android companion setup](prototype/setup.png).
