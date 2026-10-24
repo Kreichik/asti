@@ -2,13 +2,12 @@ flowchart TB
     A[Flutter Android client] --> API[Authenticated application API]
     W[Flutter web client] --> API
     D[Physical client display and rotary input] --> DG[Device communication gateway]
-    DG --> CORE[Overview, reminder and focus services]
+    DG --> CORE[Overview, reminder scheduler and focus services]
     API --> CORE
     CORE --> DB[(Relational database)]
     SYNC[Background synchronization worker] --> C[Calendar adapter]
     SYNC --> N[Notion adapter]
     SYNC --> DB
-    SCH[Reminder scheduler] --> CORE
     CORE --> B[Grounded briefing service]
     B --> LM[Replaceable model adapter]
     B --> F[Deterministic fallback]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="470" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="470"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-470)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="324.352294921875" y="440" style="font-family: Arial-Bold; font-size: 19px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,880) scale(1,-1)">ASTI interaction wireframes</text>
+			<rect x="20" y="55" width="270" height="350" rx="16" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="92.052001953125" y="373" style="font-family: Arial-Bold; font-size: 15px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,746) scale(1,-1)">Session overview</text>
+			<text x="89.13330078125" y="350" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,700) scale(1,-1)">Android / web / physical client</text>
+			<path d="M 40,334 L 270,334 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="315" y="55" width="270" height="350" rx="16" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="377.069091796875" y="373" style="font-family: Arial-Bold; font-size: 15px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,746) scale(1,-1)">Contextual reminder</text>
+			<text x="384.13330078125" y="350" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,700) scale(1,-1)">Android / web / physical client</text>
+			<path d="M 335,334 L 565,334 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="610" y="55" width="270" height="350" rx="16" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="692.899169921875" y="373" style="font-family: Arial-Bold; font-size: 15px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,746) scale(1,-1)">Focus session</text>
+			<text x="679.13330078125" y="350" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,700) scale(1,-1)">Android / web / physical client</text>
+			<path d="M 630,334 L 860,334 Z" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+			<rect x="40" y="239" width="230" height="65" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="128.70849609375" y="279.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,559) scale(1,-1)">Next event</text>
+			<text x="90.49853515625" y="263.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,527) scale(1,-1)">Exact source time and title</text>
+			<rect x="40" y="153" width="230" height="65" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="116.17236328125" y="193.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,387) scale(1,-1)">Tasks due soon</text>
+			<text x="83.15087890625" y="177.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,355) scale(1,-1)">Source / due date / freshness</text>
+			<text x="95.394287109375" y="108" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,216) scale(1,-1)">Automatic after inactivity</text>
+			<text x="84.1357421875" y="85" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,170) scale(1,-1)">Rotate to browse; click for detail</text>
+			<rect x="335" y="227" width="230" height="80" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="393.761962890625" y="283.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,566) scale(1,-1)">Upcoming commitment</text>
+			<text x="388.868896484375" y="267.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,534) scale(1,-1)">Title / source / exact time</text>
+			<text x="385.178955078125" y="251.0" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,502) scale(1,-1)">Optional notification sound</text>
+			<rect x="335" y="154" width="108" height="45" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="370.34619140625" y="176.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,353) scale(1,-1)">Snooze</text>
+			<rect x="455" y="154" width="110" height="45" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="477.28466796875" y="176.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,353) scale(1,-1)">Acknowledge</text>
+			<text x="379.4189453125" y="108" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,216) scale(1,-1)">Rotate to select; click to confirm</text>
+			<text x="368.5546875" y="85" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,170) scale(1,-1)">Source deadline remains unchanged</text>
+			<circle cx="745" cy="252" r="58" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="700.3251953125" y="248" style="font-family: Arial-Bold; font-size: 12px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,496) scale(1,-1)">Remaining time</text>
+			<text x="680.796630859375" y="170" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,340) scale(1,-1)">Shared focus / break state</text>
+			<rect x="630" y="95" width="108" height="45" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="645.481201171875" y="117.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,235) scale(1,-1)">Pause / resume</text>
+			<rect x="750" y="95" width="110" height="45" rx="5" ry="0" style="stroke: rgb(52%,58%,65%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,95%,96%); fill-rule: evenodd;"/>
+			<text x="793.685791015625" y="117.5" style="font-family: Arial; font-size: 11px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,235) scale(1,-1)">Stop</text>
+			<text x="247.39501953125" y="22" style="font-family: Arial; font-size: 10px;fill: rgb(9%,14%,21%); stroke:none;" transform="translate(0,44) scale(1,-1)">Conceptual wireframes. These are interaction designs, not implementation or test evidence.</text>
+		</g>
+	</g>
+</svg>

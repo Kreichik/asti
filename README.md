@@ -30,10 +30,13 @@ Python backend, Flutter Android/web clients, relational storage, authenticated d
 ## Materials and task management
 
 - [Consolidated report source](docs/report.md)
+- [Report PDF for supervisor review](output/pdf/ASTI_Supervisor_Review.pdf)
+- [YouTrack board and task evidence PDF](output/pdf/ASTI_YouTrack_Evidence.pdf)
 - [Requirements](docs/requirements.md)
 - [Interview evidence](docs/interviews.md)
 - [Editable architecture diagrams](docs/diagrams/)
-- [YouTrack](https://asti-diploma.youtrack.cloud/)
+- [YouTrack Kanban board](https://asti-diploma.youtrack.cloud/agiles/204-1/current)
+- [Interaction wireframes](docs/prototype/flows.png)
 - [Project decisions and evidence boundaries](PROJECT_CONTEXT.md)
 
 ## Repository organization
