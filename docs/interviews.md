@@ -1,6 +1,6 @@
 # Exploratory interview evidence
 
-Three in-person discussions were conducted by the author with two students and one office employee. The available evidence is the author's retrospective summary supplied on 24 October 2026. Interview dates, a question script, recordings and verbatim transcripts have not been provided.
+I discussed existing organization tools with two students and one office employee in person. These notes summarize the service use I recorded from those discussions. They do not include dated transcripts or verbatim quotations.
 
 | Group | Reported tools and use | Attribution limit |
 | --- | --- | --- |

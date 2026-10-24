@@ -40,18 +40,18 @@ The engineering challenge lies in reconciling heterogeneous source schemas and d
 
 ### 2.1 Available exploratory evidence
 
-The author conducted three in-person exploratory discussions: two with students and one with an office employee. The available record is the author's retrospective summary supplied on 24 October 2026. Dates, verbatim transcripts and a per-student allocation of answers are not available; the summary is therefore reported at the level it supports.
+I conducted three exploratory discussions in person: two with students and one with an office employee. The notes summarize the tools and contexts described during those conversations. They do not include dated transcripts or separately attributed answers from the two students.
 
 | Participants | Reported workflow facts | Implication for exploration |
 | --- | --- | --- |
 | Two students, summarized together | Use of Notion, Google Calendar and Notion Calendar for organization; occasional Microsoft Teams academic calls/events; much current academic interaction takes place in person | Calendar and task data are relevant sources; a calendar view alone may already satisfy some needs |
 | One office employee | Trello for work task tracking and Microsoft Teams for calls | Service diversity matters; Trello/Teams are candidates for future connectors |
 
-These discussions establish that relevant tools are used by the small convenience sample. They do not establish prevalence of missed deadlines, measured time lost switching tools, demand for a physical assistant, or improvements in motivation. No fabricated participant quotations, satisfaction scores or usability results are included.
+The discussions establish use of relevant tools in a small convenience sample. They provide an initial basis for selecting connectors, but do not yet establish the frequency of missed deadlines, the effort of checking separate sources or demand for the proposed assistant.
 
 ### 2.2 Findings versus assumptions
 
-Verified from the author's account: three real discussions occurred; participants use the listed task/calendar/meeting tools. Design hypotheses: a short session-start overview is useful; contextual reminders reduce repeated checking; a focus timer and optional character are acceptable; the physical client adds value for some users. These hypotheses require follow-up with concrete interface materials.
+Recorded findings: the three participants use the listed task, calendar and meeting tools. Design hypotheses: a short session-start overview is useful; contextual reminders reduce repeated checking; a focus timer and optional character are acceptable; the physical client adds value for some users. These hypotheses require follow-up with concrete interface materials.
 
 The next interview round should ask participants to reconstruct a recent workday, show how they find upcoming obligations, describe any actual failures or friction, and compare the proposed overview/reminder/focus flows with their current practice. Notes should include interview date, anonymized participant ID and consent to use the findings. An explanation of a desired feature must not be recorded as a demonstrated user need.
 
@@ -265,7 +265,7 @@ No implementation benchmark, user-study result or acceptance-test pass is claime
 
 This is an individual project. Yan Kudashov is responsible for analysis, design, implementation, verification and documentation. The supervisor reviews selected significant deliverables at agreed checkpoints. Repository: https://github.com/Kreichik/asti. YouTrack: https://asti-diploma.youtrack.cloud/. Each task must specify its owner, priority, deadline, expected deliverable and acceptance criteria, with reciprocal links to commits or pull requests.
 
-The ASTI Kanban board is available at https://asti-diploma.youtrack.cloud/agiles/204-1/current. The author's current YouTrack account is named admin. Recorded work includes ASTI-1 (repository and initial scope), ASTI-2 (literature and comparisons), ASTI-3 (requirements, architecture and prototype review), ASTI-4 (supervisor feedback), ASTI-5 (submission preparation) and ASTI-6 (connector feasibility). Deadlines and acceptance criteria are recorded in the task descriptions; later-stage dates are provisional planning targets. The completed initial setup links to commit 352c396. Open review tasks must not be described as approved deliverables.
+The ASTI Kanban board is available at https://asti-diploma.youtrack.cloud/agiles/204-1/current. Public read-only access is enabled for ASTI tasks and the board; other projects remain private. The author's account displays Yan (login admin). ASTI-1 records completed repository setup; ASTI-2 and ASTI-3 contain the prepared analysis and design materials under review. ASTI-4 tracks pending supervisor feedback, and ASTI-5 tracks final packaging and submission. ASTI-6 through ASTI-11 cover connector feasibility, shared assistant services, Android/web interfaces, the physical client protocol, grounded briefings and evaluation. The full task catalogue is at https://github.com/Kreichik/asti/blob/main/docs/tasks.md. All eleven tasks have an assignee, priority, native due date, expected outcome and acceptance criteria. Dates beyond the first submission are provisional planning targets. The completed setup links to commit 352c396; prepared report and diagram tasks link to pull request 2. Open review tasks are not approved deliverables.
 
 Meaningful changes are committed progressively at the time of work. Main is the reviewed baseline; subsequent task changes use branches and pull requests. The first repository setup records the initial analysis materials. It is not evidence of development before its actual commit date. The first-submission tag prob-period-1 must be created only after the reviewed submission files are finalized, and must not later be moved.
 
@@ -296,11 +296,11 @@ Meaningful changes are committed progressively at the time of work. Main is the 
 
 ### 11.1 Available feedback
 
-The author reports discussing the project idea with the supervisor and receiving agreement to take the topic. This supports the topic selection. The supervisor has been informed that the current materials are being prepared and is ready to receive them.
+I discussed the project idea with my supervisor and received agreement to use the topic. The current analysis and design materials have been prepared for her review.
 
 ### 11.2 Deliverable review and decisions
 
-Substantive comments on the current proposal, requirements, technology decisions and architecture have not yet been received in the available record. Therefore no review approval or resulting improvement is claimed. Before final submission, record the date, reviewed deliverables, actual comments, the author's response and links to the resulting changes. Readiness to receive a report must not be presented as approval of its contents.
+Feedback on the proposal, requirements, technology decisions and architecture is pending. Once received, this section will record the review date, comments, decisions and links to the resulting revisions.
 
 ## References
 
